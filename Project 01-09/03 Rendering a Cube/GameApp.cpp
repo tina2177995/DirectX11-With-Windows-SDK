@@ -125,7 +125,7 @@ void GameApp::UpdateScene(float dt)
         XMMatrixRotationX(phi) * XMMatrixRotationY(theta) *
         XMMatrixTranslation(tx, ty, 0.0f));
     m_CBuffer.proj = XMMatrixTranspose(XMMatrixPerspectiveFovLH(fov, AspectRatio(), 1.0f, 1000.0f));
-    // 更新常量缓冲区，让立方体转起来
+    // 更新常量缓冲区
     D3D11_MAPPED_SUBRESOURCE mappedData;
     HR(m_pd3dImmediateContext->Map(m_pConstantBuffer.Get(), 0, D3D11_MAP_WRITE_DISCARD, 0, &mappedData));
     memcpy_s(mappedData.pData, sizeof(m_CBuffer), &m_CBuffer, sizeof(m_CBuffer));
