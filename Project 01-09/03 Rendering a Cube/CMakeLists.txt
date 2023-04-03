@@ -53,3 +53,6 @@ set_target_properties(03_Rendering_a_Cube PROPERTIES OUTPUT_NAME "03 Rendering a
 set_target_properties(03_Rendering_a_Cube PROPERTIES RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_CURRENT_BINARY_DIR})
 set_target_properties(03_Rendering_a_Cube PROPERTIES RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_CURRENT_BINARY_DIR})
 set_target_properties(03_Rendering_a_Cube PROPERTIES FOLDER "Project 01-09")
+
+# ImGui
+target_link_libraries(YourTargetName ImGui)

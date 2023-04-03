@@ -38,6 +38,11 @@ void GameApp::OnResize()
 
 void GameApp::UpdateScene(float dt)
 {
+    // ImGui内部示例窗口
+    ImGui::ShowAboutWindow();
+    ImGui::ShowDemoWindow();
+    ImGui::ShowUserGuide();
+
     
     static float phi = 0.0f, theta = 0.0f;
     phi += 0.3f * dt, theta += 0.37f * dt;
@@ -60,6 +65,12 @@ void GameApp::DrawScene()
 
     // 绘制立方体
     m_pd3dImmediateContext->DrawIndexed(36, 0, 0);
+
+    ImGui::Render();
+    // 下面这句话会触发ImGui在Direct3D的绘制
+    // 因此需要在此之前将后备缓冲区绑定到渲染管线上
+    ImGui_ImplDX11_RenderDrawData(ImGui::GetDrawData());
+
     HR(m_pSwapChain->Present(0, 0));
 }
 
