@@ -125,7 +125,7 @@ void GameApp::UpdateScene(float dt)
         XMMatrixRotationX(phi) * XMMatrixRotationY(theta) *
         XMMatrixTranslation(tx, ty, 0.0f));
     m_CBuffer.proj = XMMatrixTranspose(XMMatrixPerspectiveFovLH(fov, AspectRatio(), 1.0f, 1000.0f));
-    // 更新常量缓冲区
+    // 更新常量缓冲区，让立方体转起来
     D3D11_MAPPED_SUBRESOURCE mappedData;
     HR(m_pd3dImmediateContext->Map(m_pConstantBuffer.Get(), 0, D3D11_MAP_WRITE_DISCARD, 0, &mappedData));
     memcpy_s(mappedData.pData, sizeof(m_CBuffer), &m_CBuffer, sizeof(m_CBuffer));
@@ -145,6 +145,7 @@ void GameApp::DrawScene()
     //m_pd3dImmediateContext->DrawIndexed(36, 0, 0);
     //绘制四棱锥
     m_pd3dImmediateContext->DrawIndexed(18, 0, 0);
+
     ImGui::Render();
     // 下面这句话会触发ImGui在Direct3D的绘制
     // 因此需要在此之前将后备缓冲区绑定到渲染管线上
@@ -307,7 +308,7 @@ bool GameApp::InitResource()
     m_pd3dImmediateContext->VSSetShader(m_pVertexShader.Get(), nullptr, 0);
     // 将更新好的常量缓冲区绑定到顶点着色器
     m_pd3dImmediateContext->VSSetConstantBuffers(0, 1, m_pConstantBuffer.GetAddressOf());
-
+    m_pd3dImmediateContext->PSSetConstantBuffers(0, 1, m_pConstantBuffer.GetAddressOf());
     m_pd3dImmediateContext->PSSetShader(m_pPixelShader.Get(), nullptr, 0);
 
     // ******************
