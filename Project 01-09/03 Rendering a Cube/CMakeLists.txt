@@ -56,3 +56,7 @@ set_target_properties(03_Rendering_a_Cube PROPERTIES FOLDER "Project 01-09")
 
 # ImGui
 target_link_libraries(03_Rendering_a_Cube ImGui)
+file(COPY imgui.ini DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+
+
+
