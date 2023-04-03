@@ -46,9 +46,9 @@ void GameApp::UpdateScene(float dt)
     // 获取IO事件
     ImGuiIO& io = ImGui::GetIO();
 
-     //
+    //
     // 自定义窗口与操作
-   //
+    //
     static float tx = 0.0f, ty = 0.0f, phi = 0.0f, theta = 0.0f, scale = 1.0f, fov = XM_PIDIV2;
     static bool animateCube = true, customColor = false;
     if (animateCube)
@@ -59,21 +59,23 @@ void GameApp::UpdateScene(float dt)
     }
     if (ImGui::Begin("Use ImGui"))
     {
-        ImGui::Checkbox("Animate Cube", &animateCube);
-        ImGui::SameLine(0.0f, 25.0f);
-        if (ImGui::Button("Reset Params"))
+        ImGui::Checkbox("Animate Cube", &animateCube);  // 复选框
+        ImGui::SameLine(0.0f, 25.0f);                   // 下一个控件在同一行往右25像素单位
+        if (ImGui::Button("Reset Params"))              // 按钮
         {
             tx = ty = phi = theta = 0.0f;
             scale = 1.0f;
             fov = XM_PIDIV2;
         }
-        ImGui::SliderFloat("Scale", &scale, 0.2f, 2.0f);
+        ImGui::SliderFloat("Scale", &scale, 0.2f, 2.0f);// 拖动控制物体大小
 
-        ImGui::Text("Phi: %.2f degrees", XMConvertToDegrees(phi));
-        ImGui::SliderFloat("##1", &phi, -XM_PI, XM_PI, "");     // 不显示文字，但避免重复的标签
+        ImGui::Text("Phi: %.2f degrees", XMConvertToDegrees(phi));   // 显示文字，用于描述下面的控件 
+        ImGui::SliderFloat("##1", &phi, -XM_PI, XM_PI, "");     // 不显示文字，但使用##来避免重复的标签  // 空字符串避免显示数字
         ImGui::Text("Theta: %.2f degrees", XMConvertToDegrees(theta));
+        // 另一种写法是ImGui::PushID(2);
+        // 把里面的##2删去
         ImGui::SliderFloat("##2", &theta, -XM_PI, XM_PI, "");
-
+        // 然后加上ImGui::PopID(2);
         ImGui::Text("Position: (%.1f, %.1f, 0.0)", tx, ty);
 
         ImGui::Text("FOV: %.2f degrees", XMConvertToDegrees(fov));
@@ -81,9 +83,11 @@ void GameApp::UpdateScene(float dt)
 
         if (ImGui::Checkbox("Use Custom Color", &customColor))
             m_CBuffer.useCustomColor = customColor;
+        // 下面的控件受上面的复选框影响
         if (customColor)
         {
             ImGui::ColorEdit3("Color", reinterpret_cast<float*>(&m_CBuffer.color));
+            // 编辑颜色
         }
     }
     ImGui::End();
@@ -116,8 +120,6 @@ void GameApp::UpdateScene(float dt)
         }
     }
 
-
-
     m_CBuffer.world = XMMatrixTranspose(
         XMMatrixScalingFromVector(XMVectorReplicate(scale)) *
         XMMatrixRotationX(phi) * XMMatrixRotationY(theta) *
@@ -140,8 +142,9 @@ void GameApp::DrawScene()
     m_pd3dImmediateContext->ClearDepthStencilView(m_pDepthStencilView.Get(), D3D11_CLEAR_DEPTH | D3D11_CLEAR_STENCIL, 1.0f, 0);
 
     // 绘制立方体
-    m_pd3dImmediateContext->DrawIndexed(36, 0, 0);
-
+    //m_pd3dImmediateContext->DrawIndexed(36, 0, 0);
+    //绘制四棱锥
+    m_pd3dImmediateContext->DrawIndexed(18, 0, 0);
     ImGui::Render();
     // 下面这句话会触发ImGui在Direct3D的绘制
     // 因此需要在此之前将后备缓冲区绑定到渲染管线上
@@ -180,7 +183,7 @@ bool GameApp::InitResource()
     //   | /     | /
     //   |/______|/
     //  0       3
-    VertexPosColor vertices[] =
+   /* VertexPosColor vertices[] =
     {
         { XMFLOAT3(-1.0f, -1.0f, -1.0f), XMFLOAT4(0.0f, 0.0f, 0.0f, 1.0f) },
         { XMFLOAT3(-1.0f, 1.0f, -1.0f), XMFLOAT4(1.0f, 0.0f, 0.0f, 1.0f) },
@@ -190,6 +193,15 @@ bool GameApp::InitResource()
         { XMFLOAT3(-1.0f, 1.0f, 1.0f), XMFLOAT4(1.0f, 0.0f, 1.0f, 1.0f) },
         { XMFLOAT3(1.0f, 1.0f, 1.0f), XMFLOAT4(1.0f, 1.0f, 1.0f, 1.0f) },
         { XMFLOAT3(1.0f, -1.0f, 1.0f), XMFLOAT4(0.0f, 1.0f, 1.0f, 1.0f) }
+    };*/
+    // 设置四棱锥顶点
+    VertexPosColor vertices[] =
+    {
+        { XMFLOAT3(-1.0f, 0.0f, -1.0f), XMFLOAT4(0.0f, 1.0f, 0.0f, 1.0f) },//0
+        { XMFLOAT3(-1.0f, 0.0f, 1.0f), XMFLOAT4(1.0f, 0.0f, 0.0f, 1.0f) },//1
+        { XMFLOAT3(1.0f, 0.0f, 1.0f), XMFLOAT4(1.0f, 1.0f, 0.0f, 1.0f) },//2
+        { XMFLOAT3(1.0f, 0.0f, -1.0f), XMFLOAT4(0.0f, 1.0f, 0.0f, 1.0f) },//3
+        { XMFLOAT3(0.0f, 2.0f, 0.0f), XMFLOAT4(0.0f, 0.0f, 1.0f, 1.0f) },//4
     };
     // 设置顶点缓冲区描述
     D3D11_BUFFER_DESC vbd;
@@ -207,7 +219,7 @@ bool GameApp::InitResource()
     // ******************
     // 索引数组
     //
-    DWORD indices[] = {
+    /*DWORD indices[] = {
         // 正面
         0, 1, 2,
         2, 3, 0,
@@ -226,6 +238,20 @@ bool GameApp::InitResource()
         // 底面
         4, 0, 3,
         3, 7, 4
+    };*/
+    //初始化索引数组 
+    DWORD indices[] = {
+        // 左面
+        0, 1, 4,
+        // 后面
+        2, 4, 1,
+        // 右面
+        4, 2 ,3,
+        // 前面
+        0, 4, 3,
+        // 下面
+        0, 3, 1,
+        1, 3, 2,
     };
     // 设置索引缓冲区描述
     D3D11_BUFFER_DESC ibd;
