@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{679B63E5-B9B3-31F5-9509-CA89B4DA294E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>39_VSM_and_ESM</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">39_VSM_and_ESM.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">39 VSM and ESM</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PATH=C:/Users/DoubleT/source/Repos/assimp/bin/Debug</LocalDebuggerEnvironment>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">39_VSM_and_ESM.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">39 VSM and ESM</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PATH=C:/Users/DoubleT/source/Repos/assimp/bin/Release</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\assimp\code\..\include;C:\Users\DoubleT\source\Repos\ImGui\.;C:\Users\DoubleT\source\Repos\Project 19-\Common\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\assimp\code\..\include;C:\Users\DoubleT\source\Repos\ImGui\.;C:\Users\DoubleT\source\Repos\Project 19-\Common\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\assimp\code\..\include;C:\Users\DoubleT\source\Repos\ImGui\.;C:\Users\DoubleT\source\Repos\Project 19-\Common\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;dxguid.lib;D3DCompiler.lib;winmm.lib;..\..\ImGui\Debug\ImGui.lib;..\Common\Debug\Common.lib;..\..\assimp\lib\Debug\assimp-vc143-mt.lib;..\..\assimp\contrib\zlib\Debug\zlibstaticd.lib;..\..\ImGui\Debug\ImGui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DoubleT/source/Repos/Project 19-/39 VSM and ESM/Debug/39 VSM and ESM.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DoubleT/source/Repos/Project 19-/39 VSM and ESM/39 VSM and ESM.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\assimp\code\..\include;C:\Users\DoubleT\source\Repos\ImGui\.;C:\Users\DoubleT\source\Repos\Project 19-\Common\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\assimp\code\..\include;C:\Users\DoubleT\source\Repos\ImGui\.;C:\Users\DoubleT\source\Repos\Project 19-\Common\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\assimp\code\..\include;C:\Users\DoubleT\source\Repos\ImGui\.;C:\Users\DoubleT\source\Repos\Project 19-\Common\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;dxguid.lib;D3DCompiler.lib;winmm.lib;..\..\ImGui\Release\ImGui.lib;..\Common\Release\Common.lib;..\..\assimp\lib\Release\assimp-vc143-mt.lib;..\..\assimp\contrib\zlib\Release\zlibstatic.lib;..\..\ImGui\Release\ImGui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DoubleT/source/Repos/Project 19-/39 VSM and ESM/Release/39 VSM and ESM.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DoubleT/source/Repos/Project 19-/39 VSM and ESM/39 VSM and ESM.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DoubleT/source/Repos/Project 19-/39 VSM and ESM/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/Repos -BC:/Users/DoubleT/source/Repos --check-stamp-file "C:/Users/DoubleT/source/Repos/Project 19-/39 VSM and ESM/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DoubleT/source/Repos/Project 19-/39 VSM and ESM/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/Repos -BC:/Users/DoubleT/source/Repos --check-stamp-file "C:/Users/DoubleT/source/Repos/Project 19-/39 VSM and ESM/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\CascadedShadowManager.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\ForwardEffect.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\GameApp.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\Main.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\ShadowEffect.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\SkyboxEffect.cpp" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\CascadedShadowManager.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\Effects.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\GameApp.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\Shaders\CascadedShadow.hlsl" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\Shaders\ConstantBuffers.hlsl" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\Shaders\FullScreenTriangle.hlsl" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\Shaders\Rendering.hlsl" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\Shaders\Shadow.hlsl" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\Shaders\Skybox.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\ZERO_CHECK.vcxproj">
+      <Project>{701B7B8C-78C3-3024-8D0E-F7E5C9203448}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\Common.vcxproj">
+      <Project>{9DE5A669-D41D-343D-A0F1-13BB99394E9F}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\ImGui\ImGui.vcxproj">
+      <Project>{4174838E-B5B8-3CEF-A5CE-6C611D2B848A}</Project>
+      <Name>ImGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\assimp\code\assimp.vcxproj">
+      <Project>{8FB37132-3AC7-3BA4-B87A-F0CE144D9DF6}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{97F116BE-0BA4-34CB-8177-96DA09A088D0}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

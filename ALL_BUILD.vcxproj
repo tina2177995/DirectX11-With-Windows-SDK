@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{49221378-2108-38F5-80EE-19BF3EDFDF2C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DoubleT\source\Repos\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DoubleT/source/Repos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/Repos -BC:/Users/DoubleT/source/Repos --check-stamp-file C:/Users/DoubleT/source/Repos/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeRCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\FetchContent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\DoubleT\source\Repos\CMakeFiles\3.26.0\CMakeCCompiler.cmake;C:\Users\DoubleT\source\Repos\CMakeFiles\3.26.0\CMakeCXXCompiler.cmake;C:\Users\DoubleT\source\Repos\CMakeFiles\3.26.0\CMakeRCCompiler.cmake;C:\Users\DoubleT\source\Repos\CMakeFiles\3.26.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\Repos\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DoubleT/source/Repos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/Repos -BC:/Users/DoubleT/source/Repos --check-stamp-file C:/Users/DoubleT/source/Repos/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeRCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\FetchContent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\DoubleT\source\Repos\CMakeFiles\3.26.0\CMakeCCompiler.cmake;C:\Users\DoubleT\source\Repos\CMakeFiles\3.26.0\CMakeCXXCompiler.cmake;C:\Users\DoubleT\source\Repos\CMakeFiles\3.26.0\CMakeRCCompiler.cmake;C:\Users\DoubleT\source\Repos\CMakeFiles\3.26.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\Repos\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\ZERO_CHECK.vcxproj">
+      <Project>{701B7B8C-78C3-3024-8D0E-F7E5C9203448}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 01-09\01 DirectX11 Initialization\01_DirectX11_Initialization.vcxproj">
+      <Project>{E1C99C33-9ED4-3A5C-A4CE-F7889FACB383}</Project>
+      <Name>01_DirectX11_Initialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 01-09\02 Rendering a Triangle\02_Rendering_a_Triangle.vcxproj">
+      <Project>{BA9C3663-9B07-3E03-B880-2C1D9CAF9478}</Project>
+      <Name>02_Rendering_a_Triangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 01-09\03 Rendering a Cube\03_Rendering_a_Cube.vcxproj">
+      <Project>{A38AC27A-6DEB-32BC-9BA7-54B48A1D2830}</Project>
+      <Name>03_Rendering_a_Cube</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 01-09\06 Use ImGui\06_Use_ImGui.vcxproj">
+      <Project>{1BAA426B-DDF9-381C-82AF-2B4EE365433B}</Project>
+      <Name>06_Use_ImGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 01-09\07 Lighting\07_Lighting.vcxproj">
+      <Project>{188658FC-EB27-39F7-8F78-457221426640}</Project>
+      <Name>07_Lighting</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\08_Direct2D_and_Direct3D_Interoperability.vcxproj">
+      <Project>{6392B425-A52A-313A-977F-EB08A22B0C25}</Project>
+      <Name>08_Direct2D_and_Direct3D_Interoperability</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\09_Texture_Mapping.vcxproj">
+      <Project>{7EED1C4C-E386-33BE-A1C8-077930611E47}</Project>
+      <Name>09_Texture_Mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 10-17\10 Camera\10_Camera.vcxproj">
+      <Project>{D9F4AF9B-E0A1-3E4E-8090-86CCE83A9BA2}</Project>
+      <Name>10_Camera</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 10-17\11 Blending\11_Blending.vcxproj">
+      <Project>{8B4CCDA1-3680-3742-89DE-261AE4B10EF3}</Project>
+      <Name>11_Blending</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 10-17\12 Depth and Stenciling\12_Depth_and_Stenciling.vcxproj">
+      <Project>{A74F4902-E9A7-32CA-9308-F884A9DB743C}</Project>
+      <Name>12_Depth_and_Stenciling</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 10-17\13 Living Without FX11\13_Living_Without_FX11.vcxproj">
+      <Project>{3EEE4C6E-39E5-32C1-B268-8DB8B5422A60}</Project>
+      <Name>13_Living_Without_FX11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 10-17\14 Depth Test\14_Depth_Test.vcxproj">
+      <Project>{45A9DC32-8425-3194-A294-5130A696B270}</Project>
+      <Name>14_Depth_Test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 10-17\15 Geometry Shader Beginning\15_Geometry_Shader_Beginning.vcxproj">
+      <Project>{AE92B7F6-CD69-3484-91E6-9498760A1E39}</Project>
+      <Name>15_Geometry_Shader_Beginning</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 10-17\16 Stream Output\16_Stream_Output.vcxproj">
+      <Project>{8CB95B1C-408E-302E-AB1E-41557FCB252F}</Project>
+      <Name>16_Stream_Output</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\17_Tree_Billboard.vcxproj">
+      <Project>{DF325DE5-BE02-3316-903F-32220DBA6459}</Project>
+      <Name>17_Tree_Billboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\19 Meshes\19_Meshes.vcxproj">
+      <Project>{C2CDDCE4-52D7-3C88-9EEB-2C92F68E75DA}</Project>
+      <Name>19_Meshes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\20 Instancing and Frustum Culling\20_Instancing_and_Frustum_Culling.vcxproj">
+      <Project>{07340B1E-F59C-3B8B-BAC2-C2AB7EB7A687}</Project>
+      <Name>20_Instancing_and_Frustum_Culling</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\21 Picking\21_Picking.vcxproj">
+      <Project>{13642216-4375-3C5B-92D5-3F74117369BF}</Project>
+      <Name>21_Picking</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\22 Static Cube Mapping\22_Static_Cube_Mapping.vcxproj">
+      <Project>{DAFB5D49-226F-3F88-B66E-9A0CBCF7E5CF}</Project>
+      <Name>22_Static_Cube_Mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\23 Dynamic Cube Mapping\23_Dynamic_Cube_Mapping.vcxproj">
+      <Project>{A0D83473-50F4-380A-8ACE-311D947F5222}</Project>
+      <Name>23_Dynamic_Cube_Mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\24 Render To Texture\24_Render_To_Texture.vcxproj">
+      <Project>{06E60A33-1377-3EF3-A011-CB613586BAC2}</Project>
+      <Name>24_Render_To_Texture</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\25 Normal Mapping\25_Normal_Mapping.vcxproj">
+      <Project>{8A124647-9123-3BED-8CF4-7F7B7402EB24}</Project>
+      <Name>25_Normal_Mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\26 Compute Shader Beginning\26_Compute_Shader_Beginning.vcxproj">
+      <Project>{0623F4C9-DD25-3596-8D45-2E2A5D0D8777}</Project>
+      <Name>26_Compute_Shader_Beginning</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\27 Bitonic Sort\27_Bitonic_Sort.vcxproj">
+      <Project>{0E547D0B-CB96-3D4C-8294-596FC54534BA}</Project>
+      <Name>27_Bitonic_Sort</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\28 Waves\28_Waves.vcxproj">
+      <Project>{AEA80A4A-568E-36BB-88B2-0EF1CB1FD99C}</Project>
+      <Name>28_Waves</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\29 OIT\29_OIT.vcxproj">
+      <Project>{727160A8-0722-37DC-98F2-D00B67B0150B}</Project>
+      <Name>29_OIT</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\30 Blur and Sobel\30_Blur_And_Sobel.vcxproj">
+      <Project>{827AB406-96CD-3069-9E49-8B92FE54590D}</Project>
+      <Name>30_Blur_And_Sobel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\31 Shadow Mapping\31_Shadow_Mapping.vcxproj">
+      <Project>{7369FFA6-7D9A-3E0B-B5D0-C5F6EFA87BE6}</Project>
+      <Name>31_Shadow_Mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\32 SSAO\32_SSAO.vcxproj">
+      <Project>{A0C8645F-339B-3421-9750-DC0AF14A6B00}</Project>
+      <Name>32_SSAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\33_Tessellation.vcxproj">
+      <Project>{7E0DD4E9-DD8D-399C-AE74-D8E9A8BE8B26}</Project>
+      <Name>33_Tessellation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\34 Displacement Mapping\34_Displacement_Mapping.vcxproj">
+      <Project>{9EEB3979-FB7D-301C-81A0-52F84929E9C2}</Project>
+      <Name>34_Displacement_Mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\35 Particle System\35_Particle_System.vcxproj">
+      <Project>{75962869-2B5B-3761-B6DF-8F971CAAEE78}</Project>
+      <Name>35_Particle_System</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\36 Deferred Rendering\36_Deferred_Rendering.vcxproj">
+      <Project>{C92AA387-B1D8-330F-9FEF-0B2B36A36252}</Project>
+      <Name>36_Deferred_Rendering</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\37 Tile-Based Deferred Rendering\37_Tile_Based_Deferred_Rendering.vcxproj">
+      <Project>{86B563D9-9391-3327-9DE9-BAF3399D81A3}</Project>
+      <Name>37_Tile_Based_Deferred_Rendering</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\38 Cascaded Shadow Mapping\38_Cascaded_Shadow_Mapping.vcxproj">
+      <Project>{C100E702-9526-3998-8F18-8B1E4DE0B7BF}</Project>
+      <Name>38_Cascaded_Shadow_Mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\39 VSM and ESM\39_VSM_and_ESM.vcxproj">
+      <Project>{679B63E5-B9B3-31F5-9509-CA89B4DA294E}</Project>
+      <Name>39_VSM_and_ESM</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\40 FXAA\40_FXAA.vcxproj">
+      <Project>{1147B888-2FAF-3D8F-A8E0-277E63136A96}</Project>
+      <Name>40_FXAA</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\Common.vcxproj">
+      <Project>{9DE5A669-D41D-343D-A0F1-13BB99394E9F}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\ImGui\ImGui.vcxproj">
+      <Project>{4174838E-B5B8-3CEF-A5CE-6C611D2B848A}</Project>
+      <Name>ImGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project Archive\Mouse and Keyboard\Mouse_and_Keyboard.vcxproj">
+      <Project>{7AB03ED8-6B50-333F-A643-296D2F23CF68}</Project>
+      <Name>Mouse_and_Keyboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\assimp\code\assimp.vcxproj">
+      <Project>{8FB37132-3AC7-3BA4-B87A-F0CE144D9DF6}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{97F116BE-0BA4-34CB-8177-96DA09A088D0}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\GameApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\GameApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\Shaders\Tessellation.hlsli">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\Shaders\Tessellation_BezierCurve_DS.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\Shaders\Tessellation_BezierSurface_DS.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\Shaders\Tessellation_BezierSurface_HS.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\Shaders\Tessellation_Isoline_HS.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\Shaders\Tessellation_PS.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\Shaders\Tessellation_Point2Square_GS.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\Shaders\Tessellation_Quad_DS.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\Shaders\Tessellation_Quad_Even_HS.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\Shaders\Tessellation_Quad_Integer_HS.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\Shaders\Tessellation_Quad_Odd_HS.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\Shaders\Tessellation_Transform_VS.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\Shaders\Tessellation_Triangle_DS.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\Shaders\Tessellation_Triangle_HS.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\Shaders\Tessellation_VS.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DoubleT\source\Repos\Project 19-\33 Tessellation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4FAA0A1E-B67B-339C-95E6-334662F603DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{C081070D-CEA0-380C-94C0-9A0985616781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F7B99844-9036-3AD9-A006-196D44569B0A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

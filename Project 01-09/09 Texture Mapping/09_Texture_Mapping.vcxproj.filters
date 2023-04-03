@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\CpuTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\DDSTextureLoader11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\DXTrace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\GameApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\Vertex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\WICTextureLoader11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\d3dApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\d3dUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\CpuTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\DDSTextureLoader11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\DXTrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\GameApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\Geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\LightHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\WICTextureLoader11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\WinMin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\d3dApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\d3dUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\HLSL\Basic_2D_PS.hlsl">
+      <Filter>HLSL Files</Filter>
+    </FXCompile>
+    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\HLSL\Basic_2D_VS.hlsl">
+      <Filter>HLSL Files</Filter>
+    </FXCompile>
+    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\HLSL\Basic_3D_PS.hlsl">
+      <Filter>HLSL Files</Filter>
+    </FXCompile>
+    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\HLSL\Basic_3D_VS.hlsl">
+      <Filter>HLSL Files</Filter>
+    </FXCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\HLSL\Basic.hlsli">
+      <Filter>HLSL Files</Filter>
+    </None>
+    <None Include="C:\Users\DoubleT\source\Repos\Project 01-09\09 Texture Mapping\HLSL\LightHelper.hlsli">
+      <Filter>HLSL Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="HLSL Files">
+      <UniqueIdentifier>{F95C65FE-C6C4-3D5E-A1B9-465DBEF1DF5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4FAA0A1E-B67B-339C-95E6-334662F603DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F7B99844-9036-3AD9-A006-196D44569B0A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

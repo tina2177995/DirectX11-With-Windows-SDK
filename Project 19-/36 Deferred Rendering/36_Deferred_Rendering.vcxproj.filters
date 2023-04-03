@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\36 Deferred Rendering\DeferredEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\36 Deferred Rendering\ForwardEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\36 Deferred Rendering\GameApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\36 Deferred Rendering\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\36 Deferred Rendering\SkyboxEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\36 Deferred Rendering\Effects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\36 Deferred Rendering\GameApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\36 Deferred Rendering\Shaders\BasicDeferred.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\36 Deferred Rendering\Shaders\ConstantBuffers.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\36 Deferred Rendering\Shaders\Forward.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\36 Deferred Rendering\Shaders\FullScreenTriangle.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\36 Deferred Rendering\Shaders\GBuffer.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\36 Deferred Rendering\Shaders\Rendering.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\36 Deferred Rendering\Shaders\Skybox.hlsl">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DoubleT\source\Repos\Project 19-\36 Deferred Rendering\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4FAA0A1E-B67B-339C-95E6-334662F603DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{C081070D-CEA0-380C-94C0-9A0985616781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F7B99844-9036-3AD9-A006-196D44569B0A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

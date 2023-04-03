@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DF325DE5-BE02-3316-903F-32220DBA6459}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>17_Tree_Billboard</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">17_Tree_Billboard.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">17 Tree Billboard</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">17_Tree_Billboard.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">17 Tree Billboard</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\..\Common;C:\Users\DoubleT\source\Repos\ImGui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\..\Common;C:\Users\DoubleT\source\Repos\ImGui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\..\Common;C:\Users\DoubleT\source\Repos\ImGui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;dxguid.lib;D3DCompiler.lib;d2d1.lib;dwrite.lib;winmm.lib;..\..\ImGui\Debug\ImGui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DoubleT/source/Repos/Project 10-17/17 Tree Billboard/Debug/17 Tree Billboard.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DoubleT/source/Repos/Project 10-17/17 Tree Billboard/17 Tree Billboard.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\..\Common;C:\Users\DoubleT\source\Repos\ImGui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\..\Common;C:\Users\DoubleT\source\Repos\ImGui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\..\Common;C:\Users\DoubleT\source\Repos\ImGui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;dxguid.lib;D3DCompiler.lib;d2d1.lib;dwrite.lib;winmm.lib;..\..\ImGui\Release\ImGui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DoubleT/source/Repos/Project 10-17/17 Tree Billboard/Release/17 Tree Billboard.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DoubleT/source/Repos/Project 10-17/17 Tree Billboard/17 Tree Billboard.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DoubleT/source/Repos/Project 10-17/17 Tree Billboard/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/Repos -BC:/Users/DoubleT/source/Repos --check-stamp-file "C:/Users/DoubleT/source/Repos/Project 10-17/17 Tree Billboard/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DoubleT/source/Repos/Project 10-17/17 Tree Billboard/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/Repos -BC:/Users/DoubleT/source/Repos --check-stamp-file "C:/Users/DoubleT/source/Repos/Project 10-17/17 Tree Billboard/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\BasicEffect.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\GameApp.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\GameObject.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\GameTimer.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\Main.cpp" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\EffectHelper.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\Effects.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\GameApp.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\GameObject.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\GameTimer.h" />
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\Camera.cpp" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\Camera.h" />
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\CpuTimer.cpp" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\CpuTimer.h" />
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\DDSTextureLoader11.cpp" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\DDSTextureLoader11.h" />
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\DXTrace.cpp" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\DXTrace.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\Geometry.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\LightHelper.h" />
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\RenderStates.cpp" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\RenderStates.h" />
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\Transform.cpp" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\Transform.h" />
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\Vertex.cpp" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\Vertex.h" />
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\WICTextureLoader11.cpp" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\WICTextureLoader11.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\WinMin.h" />
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\d3dApp.cpp" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\d3dApp.h" />
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\d3dUtil.cpp" />
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\d3dUtil.h" />
+    <None Include="C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\HLSL\Basic.hlsli">
+    </None>
+    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\HLSL\Basic_PS.hlsl">
+      <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EnableDebuggingInformation>
+      <EntryPointName>PS</EntryPointName>
+      <ShaderType>Pixel</ShaderType>
+      <ShaderModel>5.0</ShaderModel>
+      <DisableOptimizations Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DisableOptimizations>
+      <ObjectFileOutput>HLSL/Basic_PS.cso</ObjectFileOutput>
+    </FXCompile>
+    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\HLSL\Basic_VS.hlsl">
+      <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EnableDebuggingInformation>
+      <EntryPointName>VS</EntryPointName>
+      <ShaderType>Vertex</ShaderType>
+      <ShaderModel>5.0</ShaderModel>
+      <DisableOptimizations Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DisableOptimizations>
+      <ObjectFileOutput>HLSL/Basic_VS.cso</ObjectFileOutput>
+    </FXCompile>
+    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\HLSL\Billboard_GS.hlsl">
+      <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EnableDebuggingInformation>
+      <EntryPointName>GS</EntryPointName>
+      <ShaderType>Geometry</ShaderType>
+      <ShaderModel>5.0</ShaderModel>
+      <DisableOptimizations Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DisableOptimizations>
+      <ObjectFileOutput>HLSL/Billboard_GS.cso</ObjectFileOutput>
+    </FXCompile>
+    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\HLSL\Billboard_PS.hlsl">
+      <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EnableDebuggingInformation>
+      <EntryPointName>PS</EntryPointName>
+      <ShaderType>Pixel</ShaderType>
+      <ShaderModel>5.0</ShaderModel>
+      <DisableOptimizations Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DisableOptimizations>
+      <ObjectFileOutput>HLSL/Billboard_PS.cso</ObjectFileOutput>
+    </FXCompile>
+    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\HLSL\Billboard_VS.hlsl">
+      <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EnableDebuggingInformation>
+      <EntryPointName>VS</EntryPointName>
+      <ShaderType>Vertex</ShaderType>
+      <ShaderModel>5.0</ShaderModel>
+      <DisableOptimizations Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DisableOptimizations>
+      <ObjectFileOutput>HLSL/Billboard_VS.cso</ObjectFileOutput>
+    </FXCompile>
+    <None Include="C:\Users\DoubleT\source\Repos\Project 10-17\17 Tree Billboard\HLSL\LightHelper.hlsli">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\ZERO_CHECK.vcxproj">
+      <Project>{701B7B8C-78C3-3024-8D0E-F7E5C9203448}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DoubleT\source\Repos\ImGui\ImGui.vcxproj">
+      <Project>{4174838E-B5B8-3CEF-A5CE-6C611D2B848A}</Project>
+      <Name>ImGui</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\23 Dynamic Cube Mapping\BasicEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\23 Dynamic Cube Mapping\GameApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\23 Dynamic Cube Mapping\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\23 Dynamic Cube Mapping\SkyboxEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\23 Dynamic Cube Mapping\Effects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\23 Dynamic Cube Mapping\GameApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DoubleT\source\Repos\Project 19-\23 Dynamic Cube Mapping\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\23 Dynamic Cube Mapping\Shaders\Basic_PS.hlsl">
+      <Filter>Shaders</Filter>
+    </FXCompile>
+    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\23 Dynamic Cube Mapping\Shaders\Basic_VS.hlsl">
+      <Filter>Shaders</Filter>
+    </FXCompile>
+    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\23 Dynamic Cube Mapping\Shaders\Skybox_PS.hlsl">
+      <Filter>Shaders</Filter>
+    </FXCompile>
+    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\23 Dynamic Cube Mapping\Shaders\Skybox_VS.hlsl">
+      <Filter>Shaders</Filter>
+    </FXCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\DoubleT\source\Repos\Project 19-\23 Dynamic Cube Mapping\Shaders\Basic.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="C:\Users\DoubleT\source\Repos\Project 19-\23 Dynamic Cube Mapping\Shaders\LightHelper.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="C:\Users\DoubleT\source\Repos\Project 19-\23 Dynamic Cube Mapping\Shaders\Skybox.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4FAA0A1E-B67B-339C-95E6-334662F603DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{C081070D-CEA0-380C-94C0-9A0985616781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F7B99844-9036-3AD9-A006-196D44569B0A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
