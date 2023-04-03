@@ -74,6 +74,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_Rendering_a_Triangle", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_Rendering_a_Cube", "Project 01-09\03 Rendering a Cube\03_Rendering_a_Cube.vcxproj", "{A38AC27A-6DEB-32BC-9BA7-54B48A1D2830}"
 	ProjectSection(ProjectDependencies) = postProject
+		{4174838E-B5B8-3CEF-A5CE-6C611D2B848A} = {4174838E-B5B8-3CEF-A5CE-6C611D2B848A}
 		{701B7B8C-78C3-3024-8D0E-F7E5C9203448} = {701B7B8C-78C3-3024-8D0E-F7E5C9203448}
 	EndProjectSection
 EndProject

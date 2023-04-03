@@ -546,6 +546,25 @@ bool D3DApp::InitDirect3D()
     return true;
 }
 
+bool D3DApp::InitImGui()
+{
+    IMGUI_CHECKVERSION();
+    ImGui::CreateContext();
+    ImGuiIO& io = ImGui::GetIO();
+    io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;     // 允许键盘控制
+    io.ConfigWindowsMoveFromTitleBarOnly = true;              // 仅允许标题拖动
+
+    // 设置Dear ImGui风格
+    ImGui::StyleColorsDark();
+
+    // 设置平台/渲染器后端
+    ImGui_ImplWin32_Init(m_hMainWnd);
+    ImGui_ImplDX11_Init(m_pd3dDevice.Get(), m_pd3dImmediateContext.Get());
+
+    return true;
+
+}
+
 void D3DApp::CalculateFrameStats()
 {
     // 该代码计算每秒帧速，并计算每一帧渲染需要的时间，显示在窗口标题
@@ -572,21 +591,4 @@ void D3DApp::CalculateFrameStats()
     }
 }
 
-bool D3DApp::InitImGui()
-{
-    IMGUI_CHECKVERSION();
-    ImGui::CreateContext();
-    ImGuiIO& io = ImGui::GetIO();
-    io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;     // 允许键盘控制
-    io.ConfigWindowsMoveFromTitleBarOnly = true;              // 仅允许标题拖动
 
-    // 设置Dear ImGui风格
-    ImGui::StyleColorsDark();
-
-    // 设置平台/渲染器后端
-    ImGui_ImplWin32_Init(m_hMainWnd);
-    ImGui_ImplDX11_Init(m_pd3dDevice.Get(), m_pd3dImmediateContext.Get());
-
-    return true;
-
-}

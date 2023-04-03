@@ -34,7 +34,7 @@ public:
 protected:
     bool InitMainWindow();      // 窗口初始化
     bool InitDirect3D();        // Direct3D初始化
-    bool D3DApp::InitImGui();   //初始化ImGui
+    bool D3DApp::InitImGui();   // ImGui初始化
     void CalculateFrameStats(); // 计算每秒帧数并在窗口显示
 
 protected:

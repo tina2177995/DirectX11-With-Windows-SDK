@@ -55,4 +55,4 @@ set_target_properties(03_Rendering_a_Cube PROPERTIES RUNTIME_OUTPUT_DIRECTORY_RE
 set_target_properties(03_Rendering_a_Cube PROPERTIES FOLDER "Project 01-09")
 
 # ImGui
-target_link_libraries(YourTargetName ImGui)
+target_link_libraries(03_Rendering_a_Cube ImGui)
