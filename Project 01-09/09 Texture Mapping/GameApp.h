@@ -14,6 +14,7 @@ public:
         DirectX::XMMATRIX view;
         DirectX::XMMATRIX proj;
         DirectX::XMMATRIX worldInvTranspose;
+        //定义旋转矩阵
         DirectX::XMMATRIX RotationMatrix;
     };
 

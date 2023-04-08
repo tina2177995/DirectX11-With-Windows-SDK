@@ -1877,10 +1877,10 @@ HRESULT DirectX::CreateDDSTextureFromMemoryEx(
 //--------------------------------------------------------------------------------------
 _Use_decl_annotations_
 HRESULT DirectX::CreateDDSTextureFromFile(
-    ID3D11Device* d3dDevice,
-    const wchar_t* fileName,
-    ID3D11Resource** texture,
-    ID3D11ShaderResourceView** textureView,
+    ID3D11Device* d3dDevice,// [In]D3D设备
+    const wchar_t* fileName, // [In]wic所支持格式的图片文件名
+    ID3D11Resource** texture,// [Out]输出一个指向资源接口类的指针，也可以填nullptr
+    ID3D11ShaderResourceView** textureView,// [Out]输出一个指向着色器资源视图的指针，也可以填nullptr
     size_t maxsize,
     DDS_ALPHA_MODE* alphaMode) noexcept
 {

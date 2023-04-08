@@ -11,7 +11,7 @@ VertexPosHWNormalTex VS(VertexPosNormalTex vIn)
     vOut.posW = posW.xyz;
     vOut.normalW = mul(vIn.normalL, (float3x3) g_WorldInvTranspose);
     //vOut.tex = vIn.tex;
-    //旋转实现
+    // 将纹理顶点实现旋转，达到旋转目的
     vOut.tex = mul(float4(vIn.tex, 0.0f, 1.0f), g_RotationMatrix);
     return vOut;
 }

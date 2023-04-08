@@ -53,11 +53,17 @@ void GameApp::UpdateScene(float dt)
             {
                 // 播放木箱动画
                 m_CurrMode = ShowMode::WoodCrate;
+                //绑定顶点布局
                 m_pd3dImmediateContext->IASetInputLayout(m_pVertexLayout3D.Get());
+                //创建数据
                 auto meshData = Geometry::CreateBox();
+                //初始化了正方体基本资源
                 ResetMesh(meshData);
+                //绑定顶点着色器
                 m_pd3dImmediateContext->VSSetShader(m_pVertexShader3D.Get(), nullptr, 0);
+                //绑定显示着色器
                 m_pd3dImmediateContext->PSSetShader(m_pPixelShader3D.Get(), nullptr, 0);
+                //这里就不需要拿到纹理资源了，会在绘制那里实现
                 m_pd3dImmediateContext->PSSetShaderResources(0, 1, m_pWoodCrate.GetAddressOf());
             }
             else
@@ -79,13 +85,13 @@ void GameApp::UpdateScene(float dt)
     if (m_CurrMode == ShowMode::WoodCrate)
     {
         static float phi = 0.0f, theta = 0.0f;
-        phi += 0.0001f, theta += 0.00015f;
+        phi += 0.0008f, theta += 0.0015f;
         XMMATRIX W = XMMatrixRotationX(phi) * XMMatrixRotationY(theta);
         m_VSConstantBuffer.world = XMMatrixTranspose(W);
         m_VSConstantBuffer.worldInvTranspose = XMMatrixTranspose(InverseTranspose(W));
 
         static float phi2 = 0.0f;
-        phi2 += 0.01f;
+        phi2 += 0.005f;
         XMMATRIX texMat = XMMatrixTranslation(-0.5f, - 0.5f, 0.0f) * XMMatrixRotationZ(phi2) * XMMatrixTranslation(0.5f, 0.5f, 0.0f);
         m_VSConstantBuffer.RotationMatrix = XMMatrixTranspose(texMat);
 
@@ -182,11 +188,14 @@ bool GameApp::InitResource()
 
     // 初始化木箱纹理
     HR(CreateDDSTextureFromFile(m_pd3dDevice.Get(), L"..\\Texture\\WoodCrate.dds", nullptr, m_pWoodCrate.GetAddressOf()));
+    
     // 初始化火焰纹理
     WCHAR strFile[40];
     m_pFireAnims.resize(120);
     for (int i = 1; i <= 120; ++i)
     {
+        //函数wsprintf()将一系列的字符和数值输入到缓冲区
+        //wsprintf(输出缓冲区,格式字符串, 需输出的参数)
         wsprintf(strFile, L"..\\Texture\\FireAnim\\Fire%03d.bmp", i);
         HR(CreateWICTextureFromFile(m_pd3dDevice.Get(), strFile, nullptr, m_pFireAnims[static_cast<size_t>(i) - 1].GetAddressOf()));
     }
@@ -194,13 +203,16 @@ bool GameApp::InitResource()
     // 初始化采样器状态
     D3D11_SAMPLER_DESC sampDesc;
     ZeroMemory(&sampDesc, sizeof(sampDesc));
+    //sampDesc.Filter = D3D11_FILTER_MIN_MAG_MIP_LINEAR;// 所选过滤器
     sampDesc.Filter = D3D11_FILTER_MIN_MAG_MIP_LINEAR;
-    sampDesc.AddressU = D3D11_TEXTURE_ADDRESS_WRAP;
-    sampDesc.AddressV = D3D11_TEXTURE_ADDRESS_WRAP;
-    sampDesc.AddressW = D3D11_TEXTURE_ADDRESS_WRAP;
+    //寻址模式 改为通过将每个不在[0,1]2区间内的(u,v)映射为程序员指定的某个颜色来扩展纹理
+    sampDesc.AddressU = D3D11_TEXTURE_ADDRESS_WRAP;// U方向寻址模式 
+    sampDesc.AddressV = D3D11_TEXTURE_ADDRESS_WRAP;// V方向寻址模式
+    sampDesc.AddressW = D3D11_TEXTURE_ADDRESS_WRAP;// W方向寻址模式
     sampDesc.ComparisonFunc = D3D11_COMPARISON_NEVER;
-    sampDesc.MinLOD = 0;
-    sampDesc.MaxLOD = D3D11_FLOAT32_MAX;
+    sampDesc.MinLOD = 0;                         // 若mipmap等级低于MinLOD，则使用等级MinLOD。最小允许设为0
+    sampDesc.MaxLOD = D3D11_FLOAT32_MAX;         // 若mipmap等级高于MaxLOD，则使用等级MaxLOD。必须比MinLOD大 
+    //CreateSamplerState([In]采样器状态描述,[Out]输出的采样器)
     HR(m_pd3dDevice->CreateSamplerState(&sampDesc, m_pSamplerState.GetAddressOf()));
 
     
@@ -246,16 +258,20 @@ bool GameApp::InitResource()
     // 给渲染管线各个阶段绑定好所需资源
     // 设置图元类型，设定输入布局
     m_pd3dImmediateContext->IASetPrimitiveTopology(D3D11_PRIMITIVE_TOPOLOGY_TRIANGLELIST);
+    //设定输入布局
     m_pd3dImmediateContext->IASetInputLayout(m_pVertexLayout3D.Get());
     // 默认绑定3D着色器
     m_pd3dImmediateContext->VSSetShader(m_pVertexShader3D.Get(), nullptr, 0);
     // VS常量缓冲区对应HLSL寄存于b0的常量缓冲区
     m_pd3dImmediateContext->VSSetConstantBuffers(0, 1, m_pConstantBuffers[0].GetAddressOf());
     // PS常量缓冲区对应HLSL寄存于b1的常量缓冲区
+    //PSSetConstantBuffers([In]起始槽索引，对应HLSL的register(t*),[In]着色器资源视图数目,[In]着色器资源视图数组)
     m_pd3dImmediateContext->PSSetConstantBuffers(1, 1, m_pConstantBuffers[1].GetAddressOf());
     // 像素着色阶段设置好采样器
+    //PSSetSamplers([In]起始槽索引,[In]采样器状态数目,[In]采样器数组) 索引为0起始槽
     m_pd3dImmediateContext->PSSetSamplers(0, 1, m_pSamplerState.GetAddressOf());
     m_pd3dImmediateContext->PSSetShaderResources(0, 1, m_pWoodCrate.GetAddressOf());
+    //像素着色器
     m_pd3dImmediateContext->PSSetShader(m_pPixelShader3D.Get(), nullptr, 0);
     
     // ******************
