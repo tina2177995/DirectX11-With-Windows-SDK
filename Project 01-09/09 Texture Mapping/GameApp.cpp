@@ -84,6 +84,11 @@ void GameApp::UpdateScene(float dt)
         m_VSConstantBuffer.world = XMMatrixTranspose(W);
         m_VSConstantBuffer.worldInvTranspose = XMMatrixTranspose(InverseTranspose(W));
 
+        static float phi2 = 0.0f;
+        phi2 += 0.01f;
+        XMMATRIX texMat = XMMatrixTranslation(-0.5f, - 0.5f, 0.0f) * XMMatrixRotationZ(phi2) * XMMatrixTranslation(0.5f, 0.5f, 0.0f);
+        m_VSConstantBuffer.RotationMatrix = XMMatrixTranspose(texMat);
+
         // 更新常量缓冲区，让立方体转起来
         D3D11_MAPPED_SUBRESOURCE mappedData;
         HR(m_pd3dImmediateContext->Map(m_pConstantBuffers[0].Get(), 0, D3D11_MAP_WRITE_DISCARD, 0, &mappedData));

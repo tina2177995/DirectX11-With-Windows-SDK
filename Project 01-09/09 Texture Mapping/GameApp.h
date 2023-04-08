@@ -14,6 +14,7 @@ public:
         DirectX::XMMATRIX view;
         DirectX::XMMATRIX proj;
         DirectX::XMMATRIX worldInvTranspose;
+        DirectX::XMMATRIX RotationMatrix;
     };
 
     struct PSConstantBuffer
