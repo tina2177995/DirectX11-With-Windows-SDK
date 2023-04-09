@@ -2,7 +2,7 @@
 
 ## 1.Direct3D和OpenGL在空间上的差异
 
-（有图片，可看飞书https://pbitng9tzw.feishu.cn/docx/CQfZdlXN0oAvy4xLB1OcbuKUnhb）
+（有图片，https://pbitng9tzw.feishu.cn/docx/CQfZdlXN0oAvy4xLB1OcbuKUnhb?from=from_copylink）
 
 ## 局部空间
 
