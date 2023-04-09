@@ -55,11 +55,11 @@
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\DoubleT\source\Repos\ImGui;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\DoubleT\source\week2\ImGui;$(IncludePath)</IncludePath>
     <LibraryPath>ImGui/x64/Release/ImGui.lib;ImGui/x64/Debug/ImGui.lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\Users\DoubleT\source\Repos\ImGui;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\DoubleT\source\week2\ImGui;$(IncludePath)</IncludePath>
     <LibraryPath>ImGui/x64/Release/ImGui.lib;ImGui/x64/Debug/ImGui.lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
