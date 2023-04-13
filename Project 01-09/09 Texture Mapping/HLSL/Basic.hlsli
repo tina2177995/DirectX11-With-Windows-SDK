@@ -25,11 +25,9 @@ cbuffer PSConstantBuffer : register(b1)
     int g_NumPointLight;
     int g_NumSpotLight;
     float g_Pad1;
-
     float3 g_EyePosW;
     float g_Pad2;
 }
-
 
 struct VertexPosNormalTex
 {
