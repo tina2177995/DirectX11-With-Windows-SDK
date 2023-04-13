@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4174838E-B5B8-3CEF-A5CE-6C611D2B848A}</ProjectGuid>
+    <ProjectGuid>{90818BE1-D516-3B33-A14C-BBE1E493FCF2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -41,18 +41,18 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\Repos\ImGui\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\222\ImGui\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ImGui.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ImGui</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\Repos\ImGui\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\222\ImGui\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ImGui.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ImGui</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\ImGui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\222\ImGui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -69,10 +69,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\ImGui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\222\ImGui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\ImGui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\222\ImGui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -85,7 +85,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\ImGui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\222\ImGui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -102,10 +102,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\ImGui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\222\ImGui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\ImGui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\222\ImGui\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -117,11 +117,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\DoubleT\source\Repos\ImGui\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\DoubleT\source\222\ImGui\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DoubleT/source/Repos/ImGui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DoubleT/source/222/ImGui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/Repos -BC:/Users/DoubleT/source/Repos --check-stamp-file C:/Users/DoubleT/source/Repos/ImGui/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/222 -BC:/Users/DoubleT/source/222 --check-stamp-file C:/Users/DoubleT/source/222/ImGui/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -130,11 +130,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\Repos\ImGui\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\222\ImGui\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DoubleT/source/Repos/ImGui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DoubleT/source/222/ImGui/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/Repos -BC:/Users/DoubleT/source/Repos --check-stamp-file C:/Users/DoubleT/source/Repos/ImGui/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/222 -BC:/Users/DoubleT/source/222 --check-stamp-file C:/Users/DoubleT/source/222/ImGui/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -143,22 +143,22 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\Repos\ImGui\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\222\ImGui\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\ImGui\imgui.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\ImGui\imgui_demo.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\ImGui\imgui_draw.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\ImGui\imgui_impl_dx11.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\ImGui\imgui_impl_win32.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\ImGui\imgui_tables.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\222\ImGui\imgui.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\222\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\222\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\222\ImGui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\222\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\222\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\222\ImGui\imgui_widgets.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\DoubleT\source\Repos\ZERO_CHECK.vcxproj">
-      <Project>{701B7B8C-78C3-3024-8D0E-F7E5C9203448}</Project>
+    <ProjectReference Include="C:\Users\DoubleT\source\222\ZERO_CHECK.vcxproj">
+      <Project>{1CFE4CB3-3B54-3762-8EF0-EC045F7B0B34}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
