@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C2CDDCE4-52D7-3C88-9EEB-2C92F68E75DA}</ProjectGuid>
+    <ProjectGuid>{BB68590D-3248-35CC-BCDA-0641A1E84F41}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -41,14 +41,14 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\Repos\Project 19-\19 Meshes\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\repos\Project 19-\19 Meshes\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">19_Meshes.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">19 Meshes</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
     <LocalDebuggerEnvironment Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PATH=C:/Users/DoubleT/source/Repos/assimp/bin/Debug</LocalDebuggerEnvironment>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\Repos\Project 19-\19 Meshes\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\repos\Project 19-\19 Meshes\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">19_Meshes.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">19 Meshes</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
@@ -58,7 +58,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\ImGui\.;C:\Users\DoubleT\source\Repos\Project 19-\Common\.;C:\Users\DoubleT\source\Repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos\ImGui\.;C:\Users\DoubleT\source\repos\Project 19-\Common\.;C:\Users\DoubleT\source\repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -77,10 +77,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\ImGui\.;C:\Users\DoubleT\source\Repos\Project 19-\Common\.;C:\Users\DoubleT\source\Repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos\ImGui\.;C:\Users\DoubleT\source\repos\Project 19-\Common\.;C:\Users\DoubleT\source\repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\ImGui\.;C:\Users\DoubleT\source\Repos\Project 19-\Common\.;C:\Users\DoubleT\source\Repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos\ImGui\.;C:\Users\DoubleT\source\repos\Project 19-\Common\.;C:\Users\DoubleT\source\repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -93,8 +93,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/DoubleT/source/Repos/Project 19-/19 Meshes/Debug/19 Meshes.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/DoubleT/source/Repos/Project 19-/19 Meshes/19 Meshes.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/DoubleT/source/repos/Project 19-/19 Meshes/Debug/19 Meshes.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DoubleT/source/repos/Project 19-/19 Meshes/19 Meshes.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -103,7 +103,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\ImGui\.;C:\Users\DoubleT\source\Repos\Project 19-\Common\.;C:\Users\DoubleT\source\Repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos\ImGui\.;C:\Users\DoubleT\source\repos\Project 19-\Common\.;C:\Users\DoubleT\source\repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -122,10 +122,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\ImGui\.;C:\Users\DoubleT\source\Repos\Project 19-\Common\.;C:\Users\DoubleT\source\Repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos\ImGui\.;C:\Users\DoubleT\source\repos\Project 19-\Common\.;C:\Users\DoubleT\source\repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\ImGui\.;C:\Users\DoubleT\source\Repos\Project 19-\Common\.;C:\Users\DoubleT\source\Repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos\ImGui\.;C:\Users\DoubleT\source\repos\Project 19-\Common\.;C:\Users\DoubleT\source\repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -138,8 +138,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/DoubleT/source/Repos/Project 19-/19 Meshes/Release/19 Meshes.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/DoubleT/source/Repos/Project 19-/19 Meshes/19 Meshes.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/DoubleT/source/repos/Project 19-/19 Meshes/Release/19 Meshes.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DoubleT/source/repos/Project 19-/19 Meshes/19 Meshes.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -147,11 +147,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\DoubleT\source\Repos\Project 19-\19 Meshes\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\DoubleT\source\repos\Project 19-\19 Meshes\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DoubleT/source/Repos/Project 19-/19 Meshes/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DoubleT/source/repos/Project 19-/19 Meshes/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/Repos -BC:/Users/DoubleT/source/Repos --check-stamp-file "C:/Users/DoubleT/source/Repos/Project 19-/19 Meshes/CMakeFiles/generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/repos -BC:/Users/DoubleT/source/repos --check-stamp-file "C:/Users/DoubleT/source/repos/Project 19-/19 Meshes/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -160,11 +160,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\Repos\Project 19-\19 Meshes\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\repos\Project 19-\19 Meshes\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DoubleT/source/Repos/Project 19-/19 Meshes/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DoubleT/source/repos/Project 19-/19 Meshes/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/Repos -BC:/Users/DoubleT/source/Repos --check-stamp-file "C:/Users/DoubleT/source/Repos/Project 19-/19 Meshes/CMakeFiles/generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/repos -BC:/Users/DoubleT/source/repos --check-stamp-file "C:/Users/DoubleT/source/repos/Project 19-/19 Meshes/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -173,19 +173,19 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\Repos\Project 19-\19 Meshes\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\repos\Project 19-\19 Meshes\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\19 Meshes\BasicEffect.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\19 Meshes\GameApp.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\19 Meshes\Main.cpp" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\19 Meshes\Effects.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\19 Meshes\GameApp.h" />
-    <None Include="C:\Users\DoubleT\source\Repos\Project 19-\19 Meshes\Shaders\Basic.hlsli">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\19 Meshes\BasicEffect.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\19 Meshes\GameApp.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\19 Meshes\Main.cpp" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\19 Meshes\Effects.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\19 Meshes\GameApp.h" />
+    <None Include="C:\Users\DoubleT\source\repos\Project 19-\19 Meshes\Shaders\Basic.hlsli">
     </None>
-    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\19 Meshes\Shaders\Basic_PS.hlsl">
+    <FXCompile Include="C:\Users\DoubleT\source\repos\Project 19-\19 Meshes\Shaders\Basic_PS.hlsl">
       <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EnableDebuggingInformation>
       <EntryPointName>PS</EntryPointName>
       <ShaderType>Pixel</ShaderType>
@@ -193,7 +193,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <DisableOptimizations Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DisableOptimizations>
       <ObjectFileOutput>Shaders/Basic_PS.cso</ObjectFileOutput>
     </FXCompile>
-    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\19 Meshes\Shaders\Basic_VS.hlsl">
+    <FXCompile Include="C:\Users\DoubleT\source\repos\Project 19-\19 Meshes\Shaders\Basic_VS.hlsl">
       <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EnableDebuggingInformation>
       <EntryPointName>VS</EntryPointName>
       <ShaderType>Vertex</ShaderType>
@@ -201,30 +201,30 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <DisableOptimizations Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DisableOptimizations>
       <ObjectFileOutput>Shaders/Basic_VS.cso</ObjectFileOutput>
     </FXCompile>
-    <None Include="C:\Users\DoubleT\source\Repos\Project 19-\19 Meshes\Shaders\LightHelper.hlsli">
+    <None Include="C:\Users\DoubleT\source\repos\Project 19-\19 Meshes\Shaders\LightHelper.hlsli">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\DoubleT\source\Repos\ZERO_CHECK.vcxproj">
-      <Project>{701B7B8C-78C3-3024-8D0E-F7E5C9203448}</Project>
+    <ProjectReference Include="C:\Users\DoubleT\source\repos\ZERO_CHECK.vcxproj">
+      <Project>{FFCC93A4-FCA7-32E1-A9D1-38C969BA96D7}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\Common.vcxproj">
-      <Project>{9DE5A669-D41D-343D-A0F1-13BB99394E9F}</Project>
+    <ProjectReference Include="C:\Users\DoubleT\source\repos\Project 19-\Common\Common.vcxproj">
+      <Project>{E72F202B-BADB-3CF9-9A4D-B5536E1A4635}</Project>
       <Name>Common</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\DoubleT\source\Repos\ImGui\ImGui.vcxproj">
-      <Project>{4174838E-B5B8-3CEF-A5CE-6C611D2B848A}</Project>
+    <ProjectReference Include="C:\Users\DoubleT\source\repos\ImGui\ImGui.vcxproj">
+      <Project>{0A40928E-F847-3A09-80B2-E1D362ED5DFD}</Project>
       <Name>ImGui</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\DoubleT\source\Repos\assimp\code\assimp.vcxproj">
-      <Project>{8FB37132-3AC7-3BA4-B87A-F0CE144D9DF6}</Project>
+    <ProjectReference Include="C:\Users\DoubleT\source\repos\assimp\code\assimp.vcxproj">
+      <Project>{F5B485E3-D05F-31AC-9B79-92E2D73C4709}</Project>
       <Name>assimp</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\DoubleT\source\Repos\assimp\contrib\zlib\zlibstatic.vcxproj">
-      <Project>{97F116BE-0BA4-34CB-8177-96DA09A088D0}</Project>
+    <ProjectReference Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{F2980BAC-065D-3B5D-BB74-7EEED080F013}</Project>
       <Name>zlibstatic</Name>
     </ProjectReference>
   </ItemGroup>

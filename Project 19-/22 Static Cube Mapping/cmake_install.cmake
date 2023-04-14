@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DoubleT/source/Repos/Project 19-/22 Static Cube Mapping
+# Install script for directory: C:/Users/DoubleT/source/repos/Project 19-/22 Static Cube Mapping
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

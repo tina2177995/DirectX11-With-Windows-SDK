@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9DE5A669-D41D-343D-A0F1-13BB99394E9F}</ProjectGuid>
+    <ProjectGuid>{E72F202B-BADB-3CF9-9A4D-B5536E1A4635}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -41,18 +41,18 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\Repos\Project 19-\Common\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\repos\Project 19-\Common\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Common.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Common</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\Repos\Project 19-\Common\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\repos\Project 19-\Common\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Common.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Common</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\Project 19-\Common\.;C:\Users\DoubleT\source\Repos\ImGui\.;C:\Users\DoubleT\source\Repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos\Project 19-\Common\.;C:\Users\DoubleT\source\repos\ImGui\.;C:\Users\DoubleT\source\repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -71,10 +71,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\Project 19-\Common\.;C:\Users\DoubleT\source\Repos\ImGui\.;C:\Users\DoubleT\source\Repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos\Project 19-\Common\.;C:\Users\DoubleT\source\repos\ImGui\.;C:\Users\DoubleT\source\repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\Project 19-\Common\.;C:\Users\DoubleT\source\Repos\ImGui\.;C:\Users\DoubleT\source\Repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos\Project 19-\Common\.;C:\Users\DoubleT\source\repos\ImGui\.;C:\Users\DoubleT\source\repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -87,7 +87,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\Project 19-\Common\.;C:\Users\DoubleT\source\Repos\ImGui\.;C:\Users\DoubleT\source\Repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos\Project 19-\Common\.;C:\Users\DoubleT\source\repos\ImGui\.;C:\Users\DoubleT\source\repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -106,10 +106,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\Project 19-\Common\.;C:\Users\DoubleT\source\Repos\ImGui\.;C:\Users\DoubleT\source\Repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos\Project 19-\Common\.;C:\Users\DoubleT\source\repos\ImGui\.;C:\Users\DoubleT\source\repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\Repos\Project 19-\Common\.;C:\Users\DoubleT\source\Repos\ImGui\.;C:\Users\DoubleT\source\Repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos\Project 19-\Common\.;C:\Users\DoubleT\source\repos\ImGui\.;C:\Users\DoubleT\source\repos\assimp\code\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -121,11 +121,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\DoubleT\source\repos\Project 19-\Common\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DoubleT/source/Repos/Project 19-/Common/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DoubleT/source/repos/Project 19-/Common/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/Repos -BC:/Users/DoubleT/source/Repos --check-stamp-file "C:/Users/DoubleT/source/Repos/Project 19-/Common/CMakeFiles/generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/repos -BC:/Users/DoubleT/source/repos --check-stamp-file "C:/Users/DoubleT/source/repos/Project 19-/Common/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -134,11 +134,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\Repos\Project 19-\Common\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\repos\Project 19-\Common\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DoubleT/source/Repos/Project 19-/Common/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DoubleT/source/repos/Project 19-/Common/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/Repos -BC:/Users/DoubleT/source/Repos --check-stamp-file "C:/Users/DoubleT/source/Repos/Project 19-/Common/CMakeFiles/generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/repos -BC:/Users/DoubleT/source/repos --check-stamp-file "C:/Users/DoubleT/source/repos/Project 19-/Common/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -147,80 +147,80 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\Repos\Project 19-\Common\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\repos\Project 19-\Common\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\Buffer.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\Camera.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\CameraController.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\Collision.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\CpuTimer.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\DDSTextureLoader11.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\DXTrace.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\DebugLayer.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\EffectHelper.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\GameObject.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\Geometry.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\GpuTimer.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\ImGuiLog.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\ModelManager.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\RenderStates.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\ScreenGrab11.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\Texture2D.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\TextureManager.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\WICTextureLoader11.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\d3dApp.cpp" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\Buffer.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\Camera.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\CameraController.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\Collision.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\CpuTimer.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\D3DFormat.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\DDSTextureLoader11.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\DXTrace.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\DebugLayer.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\EffectHelper.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\GameObject.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\Geometry.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\GpuTimer.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\IEffect.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\ImGuiLog.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\LightHelper.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\Material.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\MeshData.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\ModelManager.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\Property.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\RenderStates.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\ScreenGrab11.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\Texture2D.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\TextureManager.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\Transform.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\Vertex.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\WICTextureLoader11.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\WinMin.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\XUtil.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\d3dApp.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\Common\stb_image.h" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\Buffer.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\Camera.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\CameraController.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\Collision.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\CpuTimer.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\DDSTextureLoader11.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\DXTrace.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\DebugLayer.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\EffectHelper.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\GameObject.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\Geometry.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\GpuTimer.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\ImGuiLog.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\ModelManager.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\RenderStates.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\ScreenGrab11.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\Texture2D.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\TextureManager.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\WICTextureLoader11.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\Common\d3dApp.cpp" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\Buffer.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\Camera.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\CameraController.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\Collision.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\CpuTimer.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\D3DFormat.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\DDSTextureLoader11.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\DXTrace.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\DebugLayer.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\EffectHelper.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\GameObject.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\Geometry.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\GpuTimer.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\IEffect.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\ImGuiLog.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\LightHelper.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\Material.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\MeshData.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\ModelManager.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\Property.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\RenderStates.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\ScreenGrab11.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\Texture2D.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\TextureManager.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\Transform.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\Vertex.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\WICTextureLoader11.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\WinMin.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\XUtil.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\d3dApp.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\Common\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\DoubleT\source\Repos\ZERO_CHECK.vcxproj">
-      <Project>{701B7B8C-78C3-3024-8D0E-F7E5C9203448}</Project>
+    <ProjectReference Include="C:\Users\DoubleT\source\repos\ZERO_CHECK.vcxproj">
+      <Project>{FFCC93A4-FCA7-32E1-A9D1-38C969BA96D7}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\DoubleT\source\Repos\ImGui\ImGui.vcxproj">
-      <Project>{4174838E-B5B8-3CEF-A5CE-6C611D2B848A}</Project>
+    <ProjectReference Include="C:\Users\DoubleT\source\repos\ImGui\ImGui.vcxproj">
+      <Project>{0A40928E-F847-3A09-80B2-E1D362ED5DFD}</Project>
       <Name>ImGui</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\DoubleT\source\Repos\assimp\code\assimp.vcxproj">
-      <Project>{8FB37132-3AC7-3BA4-B87A-F0CE144D9DF6}</Project>
+    <ProjectReference Include="C:\Users\DoubleT\source\repos\assimp\code\assimp.vcxproj">
+      <Project>{F5B485E3-D05F-31AC-9B79-92E2D73C4709}</Project>
       <Name>assimp</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\DoubleT\source\Repos\assimp\contrib\zlib\zlibstatic.vcxproj">
-      <Project>{97F116BE-0BA4-34CB-8177-96DA09A088D0}</Project>
+    <ProjectReference Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{F2980BAC-065D-3B5D-BB74-7EEED080F013}</Project>
       <Name>zlibstatic</Name>
     </ProjectReference>
   </ItemGroup>

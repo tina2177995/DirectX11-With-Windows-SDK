@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DoubleT/source/Repos/Project 10-17/16 Stream Output
+# Install script for directory: C:/Users/DoubleT/source/repos/Project 10-17/16 Stream Output
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

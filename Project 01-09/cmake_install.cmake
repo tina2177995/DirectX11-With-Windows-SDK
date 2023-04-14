@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DoubleT/source/Repos/Project 01-09
+# Install script for directory: C:/Users/DoubleT/source/repos/Project 01-09
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,36 +34,36 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project 01-09/01 DirectX11 Initialization/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project 01-09/01 DirectX11 Initialization/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project 01-09/02 Rendering a Triangle/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project 01-09/02 Rendering a Triangle/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project 01-09/03 Rendering a Cube/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project 01-09/03 Rendering a Cube/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project 01-09/06 Use ImGui/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project 01-09/06 Use ImGui/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project 01-09/07 Lighting/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project 01-09/07 Lighting/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project 01-09/08 Direct2D and Direct3D Interoperability/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project 01-09/08 Direct2D and Direct3D Interoperability/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project 01-09/09 Texture Mapping/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project 01-09/09 Texture Mapping/cmake_install.cmake")
 endif()
 

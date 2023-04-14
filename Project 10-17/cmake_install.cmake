@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DoubleT/source/Repos/Project 10-17
+# Install script for directory: C:/Users/DoubleT/source/repos/Project 10-17
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,41 +34,41 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project 10-17/10 Camera/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project 10-17/10 Camera/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project 10-17/11 Blending/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project 10-17/11 Blending/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project 10-17/12 Depth and Stenciling/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project 10-17/12 Depth and Stenciling/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project 10-17/13 Living Without FX11/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project 10-17/13 Living Without FX11/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project 10-17/14 Depth Test/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project 10-17/14 Depth Test/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project 10-17/15 Geometry Shader Beginning/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project 10-17/15 Geometry Shader Beginning/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project 10-17/16 Stream Output/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project 10-17/16 Stream Output/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project 10-17/17 Tree Billboard/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project 10-17/17 Tree Billboard/cmake_install.cmake")
 endif()
 

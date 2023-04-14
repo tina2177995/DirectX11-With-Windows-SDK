@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DoubleT/source/Repos/Project 19-/25 Normal Mapping
+# Install script for directory: C:/Users/DoubleT/source/repos/Project 19-/25 Normal Mapping
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

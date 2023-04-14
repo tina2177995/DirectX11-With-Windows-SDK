@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DoubleT/source/Repos/Project 01-09/02 Rendering a Triangle
+# Install script for directory: C:/Users/DoubleT/source/repos/Project 01-09/02 Rendering a Triangle
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DoubleT/source/Repos/Project 19-/36 Deferred Rendering
+# Install script for directory: C:/Users/DoubleT/source/repos/Project 19-/36 Deferred Rendering
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

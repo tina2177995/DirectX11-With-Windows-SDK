@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DoubleT/source/Repos
+# Install script for directory: C:/Users/DoubleT/source/repos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,32 +34,32 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/assimp/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/assimp/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/ImGui/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/ImGui/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project 01-09/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project 01-09/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project 10-17/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project 10-17/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project 19-/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project 19-/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project Archive/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project Archive/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -70,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/DoubleT/source/Repos/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/DoubleT/source/repos/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

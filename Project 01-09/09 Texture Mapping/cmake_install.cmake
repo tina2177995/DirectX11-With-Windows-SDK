@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DoubleT/source/Repos/Project 01-09/09 Texture Mapping
+# Install script for directory: C:/Users/DoubleT/source/repos/Project 01-09/09 Texture Mapping
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

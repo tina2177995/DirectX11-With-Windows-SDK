@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DoubleT/source/Repos/Project 01-09/03 Rendering a Cube
+# Install script for directory: C:/Users/DoubleT/source/repos/Project 01-09/03 Rendering a Cube
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

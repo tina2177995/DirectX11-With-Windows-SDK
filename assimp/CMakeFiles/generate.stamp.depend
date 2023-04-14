@@ -6,10 +6,10 @@ C:/Program Files (x86)/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake
-C:/Users/DoubleT/source/Repos/assimp/CMakeLists.txt
-C:/Users/DoubleT/source/Repos/assimp/assimp.pc.in
-C:/Users/DoubleT/source/Repos/assimp/cmake-modules/FindPkgMacros.cmake
-C:/Users/DoubleT/source/Repos/assimp/cmake-modules/PrecompiledHeader.cmake
-C:/Users/DoubleT/source/Repos/assimp/cmake-modules/assimp-plain-config.cmake.in
-C:/Users/DoubleT/source/Repos/assimp/include/assimp/config.h.in
-C:/Users/DoubleT/source/Repos/assimp/revision.h.in
+C:/Users/DoubleT/source/repos/assimp/CMakeLists.txt
+C:/Users/DoubleT/source/repos/assimp/assimp.pc.in
+C:/Users/DoubleT/source/repos/assimp/cmake-modules/FindPkgMacros.cmake
+C:/Users/DoubleT/source/repos/assimp/cmake-modules/PrecompiledHeader.cmake
+C:/Users/DoubleT/source/repos/assimp/cmake-modules/assimp-plain-config.cmake.in
+C:/Users/DoubleT/source/repos/assimp/include/assimp/config.h.in
+C:/Users/DoubleT/source/repos/assimp/revision.h.in

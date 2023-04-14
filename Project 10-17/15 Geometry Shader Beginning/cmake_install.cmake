@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DoubleT/source/Repos/Project 10-17/15 Geometry Shader Beginning
+# Install script for directory: C:/Users/DoubleT/source/repos/Project 10-17/15 Geometry Shader Beginning
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

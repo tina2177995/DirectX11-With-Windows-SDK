@@ -1,148 +1,148 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\15 Geometry Shader Beginning\BasicEffect.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\15 Geometry Shader Beginning\BasicEffect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\15 Geometry Shader Beginning\GameApp.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\15 Geometry Shader Beginning\GameApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\15 Geometry Shader Beginning\Main.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\15 Geometry Shader Beginning\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\Camera.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\Camera.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\CpuTimer.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\CpuTimer.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\DDSTextureLoader11.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\DDSTextureLoader11.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\DXTrace.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\DXTrace.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\RenderStates.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\RenderStates.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\Transform.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\Transform.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\Vertex.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\Vertex.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\WICTextureLoader11.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\WICTextureLoader11.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\d3dApp.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\d3dApp.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\d3dUtil.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\d3dUtil.cpp">
       <Filter>Common</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\15 Geometry Shader Beginning\EffectHelper.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 10-17\15 Geometry Shader Beginning\EffectHelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\15 Geometry Shader Beginning\Effects.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 10-17\15 Geometry Shader Beginning\Effects.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\15 Geometry Shader Beginning\GameApp.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 10-17\15 Geometry Shader Beginning\GameApp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\Camera.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\Camera.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\CpuTimer.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\CpuTimer.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\DDSTextureLoader11.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\DDSTextureLoader11.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\DXTrace.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\DXTrace.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\Geometry.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\Geometry.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\LightHelper.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\LightHelper.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\RenderStates.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\RenderStates.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\Transform.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\Transform.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\Vertex.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\Vertex.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\WICTextureLoader11.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\WICTextureLoader11.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\WinMin.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\WinMin.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\d3dApp.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\d3dApp.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 10-17\Common\d3dUtil.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 10-17\Common\d3dUtil.h">
       <Filter>Common</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\DoubleT\source\Repos\Project 10-17\15 Geometry Shader Beginning\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\DoubleT\source\repos\Project 10-17\15 Geometry Shader Beginning\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Cylinder_GS.hlsl">
+    <FXCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Cylinder_GS.hlsl">
       <Filter>HLSL Files</Filter>
     </FXCompile>
-    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Cylinder_PS.hlsl">
+    <FXCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Cylinder_PS.hlsl">
       <Filter>HLSL Files</Filter>
     </FXCompile>
-    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Cylinder_VS.hlsl">
+    <FXCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Cylinder_VS.hlsl">
       <Filter>HLSL Files</Filter>
     </FXCompile>
-    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Normal_GS.hlsl">
+    <FXCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Normal_GS.hlsl">
       <Filter>HLSL Files</Filter>
     </FXCompile>
-    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Normal_PS.hlsl">
+    <FXCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Normal_PS.hlsl">
       <Filter>HLSL Files</Filter>
     </FXCompile>
-    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Normal_VS.hlsl">
+    <FXCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Normal_VS.hlsl">
       <Filter>HLSL Files</Filter>
     </FXCompile>
-    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Triangle_GS.hlsl">
+    <FXCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Triangle_GS.hlsl">
       <Filter>HLSL Files</Filter>
     </FXCompile>
-    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Triangle_PS.hlsl">
+    <FXCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Triangle_PS.hlsl">
       <Filter>HLSL Files</Filter>
     </FXCompile>
-    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Triangle_VS.hlsl">
+    <FXCompile Include="C:\Users\DoubleT\source\repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Triangle_VS.hlsl">
       <Filter>HLSL Files</Filter>
     </FXCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\DoubleT\source\Repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Basic.hlsli">
+    <None Include="C:\Users\DoubleT\source\repos\Project 10-17\15 Geometry Shader Beginning\HLSL\Basic.hlsli">
       <Filter>HLSL Files</Filter>
     </None>
-    <None Include="C:\Users\DoubleT\source\Repos\Project 10-17\15 Geometry Shader Beginning\HLSL\LightHelper.hlsli">
+    <None Include="C:\Users\DoubleT\source\repos\Project 10-17\15 Geometry Shader Beginning\HLSL\LightHelper.hlsli">
       <Filter>HLSL Files</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Common">
-      <UniqueIdentifier>{C71DA0B6-3BFC-30E1-82F4-532031BFD0E1}</UniqueIdentifier>
+      <UniqueIdentifier>{C14FEA57-6D2D-33EA-8F6F-8F7CE0998DA3}</UniqueIdentifier>
     </Filter>
     <Filter Include="HLSL Files">
-      <UniqueIdentifier>{F95C65FE-C6C4-3D5E-A1B9-465DBEF1DF5C}</UniqueIdentifier>
+      <UniqueIdentifier>{833951D1-A629-3490-BFDB-40AA4E333067}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{4FAA0A1E-B67B-339C-95E6-334662F603DD}</UniqueIdentifier>
+      <UniqueIdentifier>{59BEE432-0781-38E5-AC61-7A1D0235C94F}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{F7B99844-9036-3AD9-A006-196D44569B0A}</UniqueIdentifier>
+      <UniqueIdentifier>{86C62C76-D764-3370-8344-73A844A3C353}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DoubleT/source/Repos/Project Archive
+# Install script for directory: C:/Users/DoubleT/source/repos/Project Archive
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DoubleT/source/Repos/Project Archive/Mouse and Keyboard/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos/Project Archive/Mouse and Keyboard/cmake_install.cmake")
 endif()
 

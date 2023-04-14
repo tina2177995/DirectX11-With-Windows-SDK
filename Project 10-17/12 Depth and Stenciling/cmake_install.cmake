@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DoubleT/source/Repos/Project 10-17/12 Depth and Stenciling
+# Install script for directory: C:/Users/DoubleT/source/repos/Project 10-17/12 Depth and Stenciling
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

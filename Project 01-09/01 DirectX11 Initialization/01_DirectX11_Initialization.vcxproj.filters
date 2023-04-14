@@ -1,54 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\01 DirectX11 Initialization\CpuTimer.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 01-09\01 DirectX11 Initialization\CpuTimer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\01 DirectX11 Initialization\DXTrace.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 01-09\01 DirectX11 Initialization\DXTrace.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\01 DirectX11 Initialization\GameApp.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 01-09\01 DirectX11 Initialization\GameApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\01 DirectX11 Initialization\Main.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 01-09\01 DirectX11 Initialization\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\01 DirectX11 Initialization\d3dApp.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 01-09\01 DirectX11 Initialization\d3dApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\01 DirectX11 Initialization\d3dUtil.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 01-09\01 DirectX11 Initialization\d3dUtil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\01 DirectX11 Initialization\CpuTimer.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 01-09\01 DirectX11 Initialization\CpuTimer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\01 DirectX11 Initialization\DXTrace.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 01-09\01 DirectX11 Initialization\DXTrace.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\01 DirectX11 Initialization\GameApp.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 01-09\01 DirectX11 Initialization\GameApp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\01 DirectX11 Initialization\WinMin.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 01-09\01 DirectX11 Initialization\WinMin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\01 DirectX11 Initialization\d3dApp.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 01-09\01 DirectX11 Initialization\d3dApp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\01 DirectX11 Initialization\d3dUtil.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 01-09\01 DirectX11 Initialization\d3dUtil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\DoubleT\source\Repos\Project 01-09\01 DirectX11 Initialization\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\DoubleT\source\repos\Project 01-09\01 DirectX11 Initialization\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{4FAA0A1E-B67B-339C-95E6-334662F603DD}</UniqueIdentifier>
+      <UniqueIdentifier>{59BEE432-0781-38E5-AC61-7A1D0235C94F}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{F7B99844-9036-3AD9-A006-196D44569B0A}</UniqueIdentifier>
+      <UniqueIdentifier>{86C62C76-D764-3370-8344-73A844A3C353}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

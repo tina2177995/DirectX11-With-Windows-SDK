@@ -41,13 +41,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\Repos\Project 19-\27 Bitonic Sort\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\repos\Project 19-\27 Bitonic Sort\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">27_Bitonic_Sort.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">27 Bitonic Sort</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\Repos\Project 19-\27 Bitonic Sort\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\repos\Project 19-\27 Bitonic Sort\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">27_Bitonic_Sort.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">27 Bitonic Sort</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
@@ -89,8 +89,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/DoubleT/source/Repos/Project 19-/27 Bitonic Sort/Debug/27 Bitonic Sort.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/DoubleT/source/Repos/Project 19-/27 Bitonic Sort/27 Bitonic Sort.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/DoubleT/source/repos/Project 19-/27 Bitonic Sort/Debug/27 Bitonic Sort.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DoubleT/source/repos/Project 19-/27 Bitonic Sort/27 Bitonic Sort.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -132,8 +132,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/DoubleT/source/Repos/Project 19-/27 Bitonic Sort/Release/27 Bitonic Sort.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/DoubleT/source/Repos/Project 19-/27 Bitonic Sort/27 Bitonic Sort.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/DoubleT/source/repos/Project 19-/27 Bitonic Sort/Release/27 Bitonic Sort.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DoubleT/source/repos/Project 19-/27 Bitonic Sort/27 Bitonic Sort.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -141,11 +141,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\DoubleT\source\Repos\Project 19-\27 Bitonic Sort\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\DoubleT\source\repos\Project 19-\27 Bitonic Sort\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DoubleT/source/Repos/Project 19-/27 Bitonic Sort/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DoubleT/source/repos/Project 19-/27 Bitonic Sort/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/Repos -BC:/Users/DoubleT/source/Repos --check-stamp-file "C:/Users/DoubleT/source/Repos/Project 19-/27 Bitonic Sort/CMakeFiles/generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/repos -BC:/Users/DoubleT/source/repos --check-stamp-file "C:/Users/DoubleT/source/repos/Project 19-/27 Bitonic Sort/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -154,11 +154,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\Repos\Project 19-\27 Bitonic Sort\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\repos\Project 19-\27 Bitonic Sort\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DoubleT/source/Repos/Project 19-/27 Bitonic Sort/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DoubleT/source/repos/Project 19-/27 Bitonic Sort/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/Repos -BC:/Users/DoubleT/source/Repos --check-stamp-file "C:/Users/DoubleT/source/Repos/Project 19-/27 Bitonic Sort/CMakeFiles/generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/repos -BC:/Users/DoubleT/source/repos --check-stamp-file "C:/Users/DoubleT/source/repos/Project 19-/27 Bitonic Sort/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -167,24 +167,24 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\Repos\Project 19-\27 Bitonic Sort\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\repos\Project 19-\27 Bitonic Sort\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\27 Bitonic Sort\CpuTimer.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\27 Bitonic Sort\GameApp.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\27 Bitonic Sort\GpuTimer.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\27 Bitonic Sort\Main.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\27 Bitonic Sort\d3dApp.cpp" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\27 Bitonic Sort\CpuTimer.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\27 Bitonic Sort\GameApp.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\27 Bitonic Sort\GpuTimer.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\27 Bitonic Sort\WinMin.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 19-\27 Bitonic Sort\d3dApp.h" />
-    <None Include="C:\Users\DoubleT\source\Repos\Project 19-\27 Bitonic Sort\Shaders\BitonicSort.hlsli">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\27 Bitonic Sort\CpuTimer.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\27 Bitonic Sort\GameApp.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\27 Bitonic Sort\GpuTimer.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\27 Bitonic Sort\Main.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 19-\27 Bitonic Sort\d3dApp.cpp" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\27 Bitonic Sort\CpuTimer.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\27 Bitonic Sort\GameApp.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\27 Bitonic Sort\GpuTimer.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\27 Bitonic Sort\WinMin.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 19-\27 Bitonic Sort\d3dApp.h" />
+    <None Include="C:\Users\DoubleT\source\repos\Project 19-\27 Bitonic Sort\Shaders\BitonicSort.hlsli">
     </None>
-    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\27 Bitonic Sort\Shaders\BitonicSort_CS.hlsl">
+    <FXCompile Include="C:\Users\DoubleT\source\repos\Project 19-\27 Bitonic Sort\Shaders\BitonicSort_CS.hlsl">
       <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EnableDebuggingInformation>
       <EntryPointName>CS</EntryPointName>
       <ShaderType>Compute</ShaderType>
@@ -192,7 +192,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <DisableOptimizations Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DisableOptimizations>
       <ObjectFileOutput>Shaders/BitonicSort_CS.cso</ObjectFileOutput>
     </FXCompile>
-    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 19-\27 Bitonic Sort\Shaders\MatrixTranspose_CS.hlsl">
+    <FXCompile Include="C:\Users\DoubleT\source\repos\Project 19-\27 Bitonic Sort\Shaders\MatrixTranspose_CS.hlsl">
       <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EnableDebuggingInformation>
       <EntryPointName>CS</EntryPointName>
       <ShaderType>Compute</ShaderType>
@@ -202,8 +202,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </FXCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\DoubleT\source\Repos\ZERO_CHECK.vcxproj">
-      <Project>{701B7B8C-78C3-3024-8D0E-F7E5C9203448}</Project>
+    <ProjectReference Include="C:\Users\DoubleT\source\repos\ZERO_CHECK.vcxproj">
+      <Project>{FFCC93A4-FCA7-32E1-A9D1-38C969BA96D7}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

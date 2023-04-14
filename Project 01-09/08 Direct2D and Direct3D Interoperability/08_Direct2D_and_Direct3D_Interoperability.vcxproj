@@ -41,13 +41,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">08_Direct2D_and_Direct3D_Interoperability.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">08 Direct2D and Direct3D Interoperability</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">08_Direct2D_and_Direct3D_Interoperability.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">08 Direct2D and Direct3D Interoperability</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
@@ -88,8 +88,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/DoubleT/source/Repos/Project 01-09/08 Direct2D and Direct3D Interoperability/Debug/08 Direct2D and Direct3D Interoperability.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/DoubleT/source/Repos/Project 01-09/08 Direct2D and Direct3D Interoperability/08 Direct2D and Direct3D Interoperability.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/DoubleT/source/repos/Project 01-09/08 Direct2D and Direct3D Interoperability/Debug/08 Direct2D and Direct3D Interoperability.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DoubleT/source/repos/Project 01-09/08 Direct2D and Direct3D Interoperability/08 Direct2D and Direct3D Interoperability.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -130,8 +130,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/DoubleT/source/Repos/Project 01-09/08 Direct2D and Direct3D Interoperability/Release/08 Direct2D and Direct3D Interoperability.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/DoubleT/source/Repos/Project 01-09/08 Direct2D and Direct3D Interoperability/08 Direct2D and Direct3D Interoperability.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/DoubleT/source/repos/Project 01-09/08 Direct2D and Direct3D Interoperability/Release/08 Direct2D and Direct3D Interoperability.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DoubleT/source/repos/Project 01-09/08 Direct2D and Direct3D Interoperability/08 Direct2D and Direct3D Interoperability.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
@@ -139,11 +139,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DoubleT/source/Repos/Project 01-09/08 Direct2D and Direct3D Interoperability/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DoubleT/source/repos/Project 01-09/08 Direct2D and Direct3D Interoperability/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/Repos -BC:/Users/DoubleT/source/Repos --check-stamp-file "C:/Users/DoubleT/source/Repos/Project 01-09/08 Direct2D and Direct3D Interoperability/CMakeFiles/generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/repos -BC:/Users/DoubleT/source/repos --check-stamp-file "C:/Users/DoubleT/source/repos/Project 01-09/08 Direct2D and Direct3D Interoperability/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -152,11 +152,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DoubleT/source/Repos/Project 01-09/08 Direct2D and Direct3D Interoperability/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DoubleT/source/repos/Project 01-09/08 Direct2D and Direct3D Interoperability/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/Repos -BC:/Users/DoubleT/source/Repos --check-stamp-file "C:/Users/DoubleT/source/Repos/Project 01-09/08 Direct2D and Direct3D Interoperability/CMakeFiles/generate.stamp"
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/repos -BC:/Users/DoubleT/source/repos --check-stamp-file "C:/Users/DoubleT/source/repos/Project 01-09/08 Direct2D and Direct3D Interoperability/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -165,36 +165,36 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\CpuTimer.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\DXTrace.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\GameApp.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\Keyboard.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\Main.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\Mouse.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\Vertex.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\d3dApp.cpp" />
-    <ClCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\d3dUtil.cpp" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\CpuTimer.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\DXTrace.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\GameApp.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\Geometry.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\Keyboard.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\LightHelper.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\Mouse.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\Vertex.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\WinMin.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\d3dApp.h" />
-    <ClInclude Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\d3dUtil.h" />
-    <None Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\HLSL\Light.hlsli">
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\CpuTimer.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\DXTrace.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\GameApp.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\Keyboard.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\Main.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\Mouse.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\Vertex.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\d3dApp.cpp" />
+    <ClCompile Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\d3dUtil.cpp" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\CpuTimer.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\DXTrace.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\GameApp.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\Geometry.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\Keyboard.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\LightHelper.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\Mouse.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\Vertex.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\WinMin.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\d3dApp.h" />
+    <ClInclude Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\d3dUtil.h" />
+    <None Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\HLSL\Light.hlsli">
     </None>
-    <None Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\HLSL\LightHelper.hlsli">
+    <None Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\HLSL\LightHelper.hlsli">
     </None>
-    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\HLSL\Light_PS.hlsl">
+    <FXCompile Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\HLSL\Light_PS.hlsl">
       <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EnableDebuggingInformation>
       <EntryPointName>PS</EntryPointName>
       <ShaderType>Pixel</ShaderType>
@@ -202,7 +202,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <DisableOptimizations Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DisableOptimizations>
       <ObjectFileOutput>HLSL/Light_PS.cso</ObjectFileOutput>
     </FXCompile>
-    <FXCompile Include="C:\Users\DoubleT\source\Repos\Project 01-09\08 Direct2D and Direct3D Interoperability\HLSL\Light_VS.hlsl">
+    <FXCompile Include="C:\Users\DoubleT\source\repos\Project 01-09\08 Direct2D and Direct3D Interoperability\HLSL\Light_VS.hlsl">
       <EnableDebuggingInformation Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EnableDebuggingInformation>
       <EntryPointName>VS</EntryPointName>
       <ShaderType>Vertex</ShaderType>
@@ -212,8 +212,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </FXCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\DoubleT\source\Repos\ZERO_CHECK.vcxproj">
-      <Project>{701B7B8C-78C3-3024-8D0E-F7E5C9203448}</Project>
+    <ProjectReference Include="C:\Users\DoubleT\source\repos\ZERO_CHECK.vcxproj">
+      <Project>{FFCC93A4-FCA7-32E1-A9D1-38C969BA96D7}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

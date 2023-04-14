@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DoubleT/source/Repos/ImGui
+# Install script for directory: C:/Users/DoubleT/source/repos/ImGui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

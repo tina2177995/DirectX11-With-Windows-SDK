@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DoubleT/source/Repos/Project 10-17/17 Tree Billboard
+# Install script for directory: C:/Users/DoubleT/source/repos/Project 10-17/17 Tree Billboard
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

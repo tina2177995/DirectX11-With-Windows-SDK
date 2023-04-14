@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DoubleT/source/Repos/Project Archive/Mouse and Keyboard
+# Install script for directory: C:/Users/DoubleT/source/repos/Project Archive/Mouse and Keyboard
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

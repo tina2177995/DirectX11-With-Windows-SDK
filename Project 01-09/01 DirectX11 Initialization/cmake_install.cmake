@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DoubleT/source/Repos/Project 01-09/01 DirectX11 Initialization
+# Install script for directory: C:/Users/DoubleT/source/repos/Project 01-09/01 DirectX11 Initialization
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
