@@ -17,7 +17,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D5240F58-0D1B-3F26-AA5E-DF608B7F0E30}</ProjectGuid>
+    <ProjectGuid>{245B170E-92F1-3720-A10D-00099AC622BA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -49,7 +49,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos\assimp\include;C:\Users\DoubleT\source\repos\assimp;C:\Users\DoubleT\source\repos\assimp\code;C:\Users\DoubleT\source\repos\assimp\.;C:\Users\DoubleT\source\repos\assimp\contrib\zlib;C:\Users\DoubleT\source\repos;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\.;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -59,7 +59,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos\assimp\include;C:\Users\DoubleT\source\repos\assimp;C:\Users\DoubleT\source\repos\assimp\code;C:\Users\DoubleT\source\repos\assimp\.;C:\Users\DoubleT\source\repos\assimp\contrib\zlib;C:\Users\DoubleT\source\repos;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\.;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -68,11 +68,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DoubleT/source/repos/assimp/contrib/zlib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/contrib/zlib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/repos -BC:/Users/DoubleT/source/repos --check-stamp-file C:/Users/DoubleT/source/repos/assimp/contrib/zlib/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master -BC:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master --check-stamp-file C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/contrib/zlib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -80,12 +80,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\DoubleT\source\repos\assimp\contrib\zlib\zconf.h.cmakein;C:\Users\DoubleT\source\repos\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\repos\assimp\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\zconf.h.cmakein;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DoubleT/source/repos/assimp/contrib/zlib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/contrib/zlib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/repos -BC:/Users/DoubleT/source/repos --check-stamp-file C:/Users/DoubleT/source/repos/assimp/contrib/zlib/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master -BC:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master --check-stamp-file C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/contrib/zlib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -93,22 +93,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\DoubleT\source\repos\assimp\contrib\zlib\zconf.h.cmakein;C:\Users\DoubleT\source\repos\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\repos\assimp\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\zconf.h.cmakein;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\DoubleT\source\repos\ZERO_CHECK.vcxproj">
-      <Project>{FFCC93A4-FCA7-32E1-A9D1-38C969BA96D7}</Project>
+    <ProjectReference Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\ZERO_CHECK.vcxproj">
+      <Project>{6D71DDCA-D649-38DE-9361-FFBEDDD1ED05}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\zlibstatic.vcxproj">
-      <Project>{F2980BAC-065D-3B5D-BB74-7EEED080F013}</Project>
+    <ProjectReference Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{923ACD66-87FB-3634-B26C-5991B9A57D2C}</Project>
       <Name>zlibstatic</Name>
     </ProjectReference>
   </ItemGroup>

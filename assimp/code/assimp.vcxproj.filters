@@ -1,1964 +1,1964 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\Assimp.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\Assimp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\CApi\CInterfaceIOWrapper.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\CApi\CInterfaceIOWrapper.cpp">
       <Filter>CApi</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\Compression.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\Compression.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\BaseImporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\BaseImporter.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\BaseProcess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\BaseProcess.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\PostStepRegistry.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\PostStepRegistry.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\ImporterRegistry.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\ImporterRegistry.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\DefaultIOStream.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\DefaultIOStream.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\IOSystem.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\IOSystem.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\DefaultIOSystem.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\DefaultIOSystem.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\ZipArchiveIOSystem.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\ZipArchiveIOSystem.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\Importer.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\Importer.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\SGSpatialSort.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\SGSpatialSort.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\VertexTriangleAdjacency.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\VertexTriangleAdjacency.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\SpatialSort.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\SpatialSort.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\SceneCombiner.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\SceneCombiner.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\ScenePreprocessor.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\ScenePreprocessor.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\SkeletonMeshBuilder.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\SkeletonMeshBuilder.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\StandardShapes.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\StandardShapes.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\TargetAnimation.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\TargetAnimation.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\RemoveComments.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\RemoveComments.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\Subdivision.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\Subdivision.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\scene.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\scene.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\Bitmap.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\Bitmap.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\Version.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\Version.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\CreateAnimMesh.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\CreateAnimMesh.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\simd.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\simd.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\material.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\material.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\AssertHandler.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\AssertHandler.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\Exceptional.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\Exceptional.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\Base64.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\Base64.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\DefaultLogger.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\DefaultLogger.cpp">
       <Filter>Logging</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Common\Exporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\Exporter.cpp">
       <Filter>Exporter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\CApi\AssimpCExport.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\CApi\AssimpCExport.cpp">
       <Filter>Exporter</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\CalcTangentsProcess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\CalcTangentsProcess.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\ComputeUVMappingProcess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\ComputeUVMappingProcess.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\ConvertToLHProcess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\ConvertToLHProcess.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\EmbedTexturesProcess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\EmbedTexturesProcess.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\FindDegenerates.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\FindDegenerates.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\FindInstancesProcess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\FindInstancesProcess.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\FindInvalidDataProcess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\FindInvalidDataProcess.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\FixNormalsStep.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\FixNormalsStep.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\DropFaceNormalsProcess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\DropFaceNormalsProcess.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\GenFaceNormalsProcess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\GenFaceNormalsProcess.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\GenVertexNormalsProcess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\GenVertexNormalsProcess.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\PretransformVertices.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\PretransformVertices.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\ImproveCacheLocality.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\ImproveCacheLocality.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\JoinVerticesProcess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\JoinVerticesProcess.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\LimitBoneWeightsProcess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\LimitBoneWeightsProcess.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\RemoveRedundantMaterials.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\RemoveRedundantMaterials.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\RemoveVCProcess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\RemoveVCProcess.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\SortByPTypeProcess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\SortByPTypeProcess.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\SplitLargeMeshes.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\SplitLargeMeshes.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\TextureTransform.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\TextureTransform.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\TriangulateProcess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\TriangulateProcess.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\ValidateDataStructure.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\ValidateDataStructure.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\OptimizeGraph.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\OptimizeGraph.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\OptimizeMeshes.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\OptimizeMeshes.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\DeboneProcess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\DeboneProcess.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\ProcessHelper.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\ProcessHelper.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\MakeVerboseFormat.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\MakeVerboseFormat.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\ScaleProcess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\ScaleProcess.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\ArmaturePopulate.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\ArmaturePopulate.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\GenBoundingBoxesProcess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\GenBoundingBoxesProcess.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\SplitByBoneCountProcess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\SplitByBoneCountProcess.cpp">
       <Filter>PostProcessing</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Material\MaterialSystem.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Material\MaterialSystem.cpp">
       <Filter>MaterialSystem</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\STEPParser\STEPFileReader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\STEPParser\STEPFileReader.cpp">
       <Filter>STEPParser</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\STEPParser\STEPFileEncoding.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\STEPParser\STEPFileEncoding.cpp">
       <Filter>STEPParser</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\AMF\AMFImporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\AMF\AMFImporter.cpp">
       <Filter>AssetLib\AMF</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\AMF\AMFImporter_Geometry.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\AMF\AMFImporter_Geometry.cpp">
       <Filter>AssetLib\AMF</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\AMF\AMFImporter_Material.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\AMF\AMFImporter_Material.cpp">
       <Filter>AssetLib\AMF</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\AMF\AMFImporter_Postprocess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\AMF\AMFImporter_Postprocess.cpp">
       <Filter>AssetLib\AMF</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\3DS\3DSConverter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\3DS\3DSConverter.cpp">
       <Filter>AssetLib\3DS</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\3DS\3DSLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\3DS\3DSLoader.cpp">
       <Filter>AssetLib\3DS</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\AC\ACLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\AC\ACLoader.cpp">
       <Filter>AssetLib\AC</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\ASE\ASELoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\ASE\ASELoader.cpp">
       <Filter>AssetLib\ASE</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\ASE\ASEParser.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\ASE\ASEParser.cpp">
       <Filter>AssetLib\ASE</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Assbin\AssbinLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Assbin\AssbinLoader.cpp">
       <Filter>AssetLib\ASSBIN</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\B3D\B3DImporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\B3D\B3DImporter.cpp">
       <Filter>AssetLib\B3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\BVH\BVHLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\BVH\BVHLoader.cpp">
       <Filter>AssetLib\BVH</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Collada\ColladaHelper.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Collada\ColladaHelper.cpp">
       <Filter>AssetLib\COLLADA</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Collada\ColladaLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Collada\ColladaLoader.cpp">
       <Filter>AssetLib\COLLADA</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Collada\ColladaParser.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Collada\ColladaParser.cpp">
       <Filter>AssetLib\COLLADA</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\DXF\DXFLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\DXF\DXFLoader.cpp">
       <Filter>AssetLib\DXF</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\CSM\CSMLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\CSM\CSMLoader.cpp">
       <Filter>AssetLib\CSM</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\HMP\HMPLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\HMP\HMPLoader.cpp">
       <Filter>AssetLib\HMP</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Irr\IRRMeshLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Irr\IRRMeshLoader.cpp">
       <Filter>AssetLib\IRRMESH</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Irr\IRRShared.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Irr\IRRShared.cpp">
       <Filter>AssetLib\IRRMESH</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\IQM\IQMImporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\IQM\IQMImporter.cpp">
       <Filter>AssetLib\IQM</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Irr\IRRLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Irr\IRRLoader.cpp">
       <Filter>AssetLib\IRR</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\LWO\LWOAnimation.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\LWO\LWOAnimation.cpp">
       <Filter>AssetLib\LWO</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\LWO\LWOBLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\LWO\LWOBLoader.cpp">
       <Filter>AssetLib\LWO</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\LWO\LWOLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\LWO\LWOLoader.cpp">
       <Filter>AssetLib\LWO</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\LWO\LWOMaterial.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\LWO\LWOMaterial.cpp">
       <Filter>AssetLib\LWO</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\LWS\LWSLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\LWS\LWSLoader.cpp">
       <Filter>AssetLib\LWS</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\M3D\M3DImporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\M3D\M3DImporter.cpp">
       <Filter>AssetLib\M3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\M3D\M3DWrapper.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\M3D\M3DWrapper.cpp">
       <Filter>AssetLib\M3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MD2\MD2Loader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MD2\MD2Loader.cpp">
       <Filter>AssetLib\MD2</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MD3\MD3Loader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MD3\MD3Loader.cpp">
       <Filter>AssetLib\MD3</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MD5\MD5Loader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MD5\MD5Loader.cpp">
       <Filter>AssetLib\MD5</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MD5\MD5Parser.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MD5\MD5Parser.cpp">
       <Filter>AssetLib\MD5</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MDC\MDCLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MDC\MDCLoader.cpp">
       <Filter>AssetLib\MDC</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MDL\MDLLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MDL\MDLLoader.cpp">
       <Filter>AssetLib\MDL</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MDL\MDLMaterialLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MDL\MDLMaterialLoader.cpp">
       <Filter>AssetLib\MDL</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MDL\HalfLife\HL1MDLLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MDL\HalfLife\HL1MDLLoader.cpp">
       <Filter>AssetLib\MDL</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MDL\HalfLife\UniqueNameGenerator.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MDL\HalfLife\UniqueNameGenerator.cpp">
       <Filter>AssetLib\MDL</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\NFF\NFFLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\NFF\NFFLoader.cpp">
       <Filter>AssetLib\NFF</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\NDO\NDOLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\NDO\NDOLoader.cpp">
       <Filter>AssetLib\NDO</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\OFF\OFFLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\OFF\OFFLoader.cpp">
       <Filter>AssetLib\OFF</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Obj\ObjFileImporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Obj\ObjFileImporter.cpp">
       <Filter>AssetLib\OBJ</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Obj\ObjFileMtlImporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Obj\ObjFileMtlImporter.cpp">
       <Filter>AssetLib\OBJ</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Obj\ObjFileParser.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Obj\ObjFileParser.cpp">
       <Filter>AssetLib\OBJ</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Ogre\OgreImporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Ogre\OgreImporter.cpp">
       <Filter>AssetLib\OGRE</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Ogre\OgreStructs.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Ogre\OgreStructs.cpp">
       <Filter>AssetLib\OGRE</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Ogre\OgreBinarySerializer.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Ogre\OgreBinarySerializer.cpp">
       <Filter>AssetLib\OGRE</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Ogre\OgreXmlSerializer.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Ogre\OgreXmlSerializer.cpp">
       <Filter>AssetLib\OGRE</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Ogre\OgreMaterial.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Ogre\OgreMaterial.cpp">
       <Filter>AssetLib\OGRE</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\OpenGEX\OpenGEXImporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\OpenGEX\OpenGEXImporter.cpp">
       <Filter>AssetLib\OPENGEX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Ply\PlyLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Ply\PlyLoader.cpp">
       <Filter>AssetLib\PLY</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Ply\PlyParser.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Ply\PlyParser.cpp">
       <Filter>AssetLib\PLY</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MS3D\MS3DLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MS3D\MS3DLoader.cpp">
       <Filter>AssetLib\MS3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\COB\COBLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\COB\COBLoader.cpp">
       <Filter>AssetLib\COB</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Blender\BlenderLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Blender\BlenderLoader.cpp">
       <Filter>AssetLib\BLEND</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Blender\BlenderDNA.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Blender\BlenderDNA.cpp">
       <Filter>AssetLib\BLEND</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Blender\BlenderScene.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Blender\BlenderScene.cpp">
       <Filter>AssetLib\BLEND</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Blender\BlenderModifier.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Blender\BlenderModifier.cpp">
       <Filter>AssetLib\BLEND</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Blender\BlenderBMesh.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Blender\BlenderBMesh.cpp">
       <Filter>AssetLib\BLEND</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Blender\BlenderTessellator.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Blender\BlenderTessellator.cpp">
       <Filter>AssetLib\BLEND</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Blender\BlenderCustomData.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Blender\BlenderCustomData.cpp">
       <Filter>AssetLib\BLEND</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\IFC\IFCLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\IFC\IFCLoader.cpp">
       <Filter>AssetLib\IFC</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\IFC\IFCReaderGen1_2x3.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\IFC\IFCReaderGen1_2x3.cpp">
       <Filter>AssetLib\IFC</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\IFC\IFCReaderGen2_2x3.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\IFC\IFCReaderGen2_2x3.cpp">
       <Filter>AssetLib\IFC</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\IFC\IFCUtil.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\IFC\IFCUtil.cpp">
       <Filter>AssetLib\IFC</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\IFC\IFCGeometry.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\IFC\IFCGeometry.cpp">
       <Filter>AssetLib\IFC</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\IFC\IFCMaterial.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\IFC\IFCMaterial.cpp">
       <Filter>AssetLib\IFC</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\IFC\IFCProfile.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\IFC\IFCProfile.cpp">
       <Filter>AssetLib\IFC</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\IFC\IFCCurve.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\IFC\IFCCurve.cpp">
       <Filter>AssetLib\IFC</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\IFC\IFCBoolean.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\IFC\IFCBoolean.cpp">
       <Filter>AssetLib\IFC</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\IFC\IFCOpenings.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\IFC\IFCOpenings.cpp">
       <Filter>AssetLib\IFC</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\XGL\XGLLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\XGL\XGLLoader.cpp">
       <Filter>AssetLib\XGL</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXImporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXImporter.cpp">
       <Filter>AssetLib\FBX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXParser.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXParser.cpp">
       <Filter>AssetLib\FBX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXTokenizer.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXTokenizer.cpp">
       <Filter>AssetLib\FBX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXConverter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXConverter.cpp">
       <Filter>AssetLib\FBX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXUtil.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXUtil.cpp">
       <Filter>AssetLib\FBX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXDocument.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXDocument.cpp">
       <Filter>AssetLib\FBX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXProperties.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXProperties.cpp">
       <Filter>AssetLib\FBX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXMeshGeometry.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXMeshGeometry.cpp">
       <Filter>AssetLib\FBX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXMaterial.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXMaterial.cpp">
       <Filter>AssetLib\FBX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXModel.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXModel.cpp">
       <Filter>AssetLib\FBX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXAnimation.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXAnimation.cpp">
       <Filter>AssetLib\FBX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXNodeAttribute.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXNodeAttribute.cpp">
       <Filter>AssetLib\FBX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXDeformer.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXDeformer.cpp">
       <Filter>AssetLib\FBX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXBinaryTokenizer.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXBinaryTokenizer.cpp">
       <Filter>AssetLib\FBX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXDocumentUtil.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXDocumentUtil.cpp">
       <Filter>AssetLib\FBX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Q3D\Q3DLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Q3D\Q3DLoader.cpp">
       <Filter>AssetLib\Q3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Q3BSP\Q3BSPFileParser.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Q3BSP\Q3BSPFileParser.cpp">
       <Filter>AssetLib\Q3BSP</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Q3BSP\Q3BSPFileImporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Q3BSP\Q3BSPFileImporter.cpp">
       <Filter>AssetLib\Q3BSP</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Raw\RawLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Raw\RawLoader.cpp">
       <Filter>AssetLib\RAW</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\SIB\SIBImporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\SIB\SIBImporter.cpp">
       <Filter>AssetLib\SIB</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\SMD\SMDLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\SMD\SMDLoader.cpp">
       <Filter>AssetLib\SMD</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\STL\STLLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\STL\STLLoader.cpp">
       <Filter>AssetLib\STL</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Terragen\TerragenLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Terragen\TerragenLoader.cpp">
       <Filter>AssetLib\TERRAGEN</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Unreal\UnrealLoader.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Unreal\UnrealLoader.cpp">
       <Filter>AssetLib\3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X\XFileImporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X\XFileImporter.cpp">
       <Filter>AssetLib\X</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X\XFileParser.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X\XFileParser.cpp">
       <Filter>AssetLib\X</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DImporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DImporter.cpp">
       <Filter>AssetLib\X3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DImporter_Geometry2D.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DImporter_Geometry2D.cpp">
       <Filter>AssetLib\X3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DImporter_Geometry3D.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DImporter_Geometry3D.cpp">
       <Filter>AssetLib\X3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DImporter_Group.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DImporter_Group.cpp">
       <Filter>AssetLib\X3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DImporter_Light.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DImporter_Light.cpp">
       <Filter>AssetLib\X3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DImporter_Metadata.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DImporter_Metadata.cpp">
       <Filter>AssetLib\X3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DImporter_Networking.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DImporter_Networking.cpp">
       <Filter>AssetLib\X3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DImporter_Postprocess.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DImporter_Postprocess.cpp">
       <Filter>AssetLib\X3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DImporter_Rendering.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DImporter_Rendering.cpp">
       <Filter>AssetLib\X3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DImporter_Shape.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DImporter_Shape.cpp">
       <Filter>AssetLib\X3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DImporter_Texturing.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DImporter_Texturing.cpp">
       <Filter>AssetLib\X3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DGeoHelper.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DGeoHelper.cpp">
       <Filter>AssetLib\X3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DXmlHelper.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DXmlHelper.cpp">
       <Filter>AssetLib\X3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\glTF\glTFCommon.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\glTF\glTFCommon.cpp">
       <Filter>AssetLib\GLTF</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\glTF\glTFImporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\glTF\glTFImporter.cpp">
       <Filter>AssetLib\GLTF</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\glTF2\glTF2Importer.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\glTF2\glTF2Importer.cpp">
       <Filter>AssetLib\GLTF</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\3MF\XmlSerializer.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\3MF\XmlSerializer.cpp">
       <Filter>AssetLib\3MF</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\3MF\D3MFImporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\3MF\D3MFImporter.cpp">
       <Filter>AssetLib\3MF</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\3MF\D3MFOpcPackage.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\3MF\D3MFOpcPackage.cpp">
       <Filter>AssetLib\3MF</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MMD\MMDImporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MMD\MMDImporter.cpp">
       <Filter>AssetLib\MMD</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MMD\MMDPmxParser.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MMD\MMDPmxParser.cpp">
       <Filter>AssetLib\MMD</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Obj\ObjExporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Obj\ObjExporter.cpp">
       <Filter>AssetLib\OBJ</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\OpenGEX\OpenGEXExporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\OpenGEX\OpenGEXExporter.cpp">
       <Filter>AssetLib\OPENGEX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Ply\PlyExporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Ply\PlyExporter.cpp">
       <Filter>AssetLib\PLY</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\3DS\3DSExporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\3DS\3DSExporter.cpp">
       <Filter>AssetLib\3DS</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Assbin\AssbinExporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Assbin\AssbinExporter.cpp">
       <Filter>AssetLib\ASSBIN</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Assbin\AssbinFileWriter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Assbin\AssbinFileWriter.cpp">
       <Filter>AssetLib\ASSBIN</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Assxml\AssxmlExporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Assxml\AssxmlExporter.cpp">
       <Filter>AssetLib\ASSXML</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Assxml\AssxmlFileWriter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Assxml\AssxmlFileWriter.cpp">
       <Filter>AssetLib\ASSXML</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\M3D\M3DExporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\M3D\M3DExporter.cpp">
       <Filter>AssetLib\M3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Collada\ColladaExporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Collada\ColladaExporter.cpp">
       <Filter>AssetLib\COLLADA</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXExporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXExporter.cpp">
       <Filter>AssetLib\FBX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXExportNode.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXExportNode.cpp">
       <Filter>AssetLib\FBX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXExportProperty.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXExportProperty.cpp">
       <Filter>AssetLib\FBX</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\STL\STLExporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\STL\STLExporter.cpp">
       <Filter>AssetLib\STL</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X\XFileExporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X\XFileExporter.cpp">
       <Filter>AssetLib\X</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DExporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DExporter.cpp">
       <Filter>AssetLib\X3D</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\glTF\glTFExporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\glTF\glTFExporter.cpp">
       <Filter>AssetLib\GLTF</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\glTF2\glTF2Exporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\glTF2\glTF2Exporter.cpp">
       <Filter>AssetLib\GLTF</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\3MF\D3MFExporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\3MF\D3MFExporter.cpp">
       <Filter>AssetLib\3MF</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\Pbrt\PbrtExporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Pbrt\PbrtExporter.cpp">
       <Filter>AssetLib\PBRT</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Assjson\cencode.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Assjson\cencode.c">
       <Filter>AssetLib\ASSJSON</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Assjson\json_exporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Assjson\json_exporter.cpp">
       <Filter>AssetLib\ASSJSON</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Assjson\mesh_splitter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Assjson\mesh_splitter.cpp">
       <Filter>AssetLib\ASSJSON</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Step\StepExporter.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Step\StepExporter.cpp">
       <Filter>AssetLib\STEP</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\unzip\crypt.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\unzip\crypt.c">
       <Filter>Contrib\unzip</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\unzip\ioapi.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\unzip\ioapi.c">
       <Filter>Contrib\unzip</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\unzip\unzip.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\unzip\unzip.c">
       <Filter>Contrib\unzip</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\poly2tri\poly2tri\common\shapes.cc">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\poly2tri\poly2tri\common\shapes.cc">
       <Filter>Contrib\Poly2Tri</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
       <Filter>Contrib\Poly2Tri</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc">
       <Filter>Contrib\Poly2Tri</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc">
       <Filter>Contrib\Poly2Tri</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
       <Filter>Contrib\Poly2Tri</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\clipper\clipper.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\clipper\clipper.cpp">
       <Filter>Contrib\Clipper</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\openddlparser\code\OpenDDLParser.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\openddlparser\code\OpenDDLParser.cpp">
       <Filter>Contrib\openddl_parser</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\openddlparser\code\DDLNode.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\openddlparser\code\DDLNode.cpp">
       <Filter>Contrib\openddl_parser</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\openddlparser\code\OpenDDLCommon.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\openddlparser\code\OpenDDLCommon.cpp">
       <Filter>Contrib\openddl_parser</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\openddlparser\code\OpenDDLExport.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\openddlparser\code\OpenDDLExport.cpp">
       <Filter>Contrib\openddl_parser</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\openddlparser\code\Value.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\openddlparser\code\Value.cpp">
       <Filter>Contrib\openddl_parser</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\openddlparser\code\OpenDDLStream.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\openddlparser\code\OpenDDLStream.cpp">
       <Filter>Contrib\openddl_parser</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcArithmeticCodec.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcArithmeticCodec.cpp">
       <Filter>Contrib\open3dgc</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp">
       <Filter>Contrib\open3dgc</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp">
       <Filter>Contrib\open3dgc</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcTools.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcTools.cpp">
       <Filter>Contrib\open3dgc</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcTriangleFans.cpp">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcTriangleFans.cpp">
       <Filter>Contrib\open3dgc</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\zip\src\zip.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zip\src\zip.c">
       <Filter>ziplib</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\CApi\CInterfaceIOWrapper.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\CApi\CInterfaceIOWrapper.h">
       <Filter>CApi</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\Common\Compression.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\Compression.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\Common\BaseProcess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\BaseProcess.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\Common\Importer.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\Importer.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\Common\ScenePrivate.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\ScenePrivate.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\Common\DefaultProgressHandler.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\DefaultProgressHandler.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\Common\PolyTools.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\PolyTools.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\Common\Maybe.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\Maybe.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\Common\IFF.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\IFF.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\Common\VertexTriangleAdjacency.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\VertexTriangleAdjacency.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\Common\ScenePreprocessor.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\ScenePreprocessor.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\Common\TargetAnimation.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\TargetAnimation.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\Common\simd.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\simd.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\DefaultLogger.hpp">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\DefaultLogger.hpp">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\LogStream.hpp">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\LogStream.hpp">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\Logger.hpp">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\Logger.hpp">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\NullLogger.hpp">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\NullLogger.hpp">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\Common\Win32DebugLogStream.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\Win32DebugLogStream.h">
       <Filter>Logging</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\Common\FileLogStream.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\FileLogStream.h">
       <Filter>Logging</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\Common\StdOStreamLogStream.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Common\StdOStreamLogStream.h">
       <Filter>Logging</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\BlobIOSystem.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\BlobIOSystem.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\CalcTangentsProcess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\CalcTangentsProcess.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\ComputeUVMappingProcess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\ComputeUVMappingProcess.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\ConvertToLHProcess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\ConvertToLHProcess.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\EmbedTexturesProcess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\EmbedTexturesProcess.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\FindDegenerates.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\FindDegenerates.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\FindInstancesProcess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\FindInstancesProcess.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\FindInvalidDataProcess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\FindInvalidDataProcess.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\FixNormalsStep.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\FixNormalsStep.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\DropFaceNormalsProcess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\DropFaceNormalsProcess.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\GenFaceNormalsProcess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\GenFaceNormalsProcess.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\GenVertexNormalsProcess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\GenVertexNormalsProcess.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\PretransformVertices.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\PretransformVertices.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\ImproveCacheLocality.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\ImproveCacheLocality.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\JoinVerticesProcess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\JoinVerticesProcess.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\LimitBoneWeightsProcess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\LimitBoneWeightsProcess.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\RemoveRedundantMaterials.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\RemoveRedundantMaterials.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\RemoveVCProcess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\RemoveVCProcess.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\SortByPTypeProcess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\SortByPTypeProcess.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\SplitLargeMeshes.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\SplitLargeMeshes.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\TextureTransform.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\TextureTransform.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\TriangulateProcess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\TriangulateProcess.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\ValidateDataStructure.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\ValidateDataStructure.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\OptimizeGraph.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\OptimizeGraph.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\OptimizeMeshes.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\OptimizeMeshes.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\DeboneProcess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\DeboneProcess.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\ProcessHelper.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\ProcessHelper.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\MakeVerboseFormat.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\MakeVerboseFormat.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\ScaleProcess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\ScaleProcess.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\ArmaturePopulate.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\ArmaturePopulate.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\GenBoundingBoxesProcess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\GenBoundingBoxesProcess.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\PostProcessing\SplitByBoneCountProcess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\PostProcessing\SplitByBoneCountProcess.h">
       <Filter>PostProcessing</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\Material\MaterialSystem.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Material\MaterialSystem.h">
       <Filter>MaterialSystem</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\STEPParser\STEPFileReader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\STEPParser\STEPFileReader.h">
       <Filter>STEPParser</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\STEPParser\STEPFileEncoding.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\STEPParser\STEPFileEncoding.h">
       <Filter>STEPParser</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\AMF\AMFImporter.hpp">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\AMF\AMFImporter.hpp">
       <Filter>AssetLib\AMF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\AMF\AMFImporter_Node.hpp">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\AMF\AMFImporter_Node.hpp">
       <Filter>AssetLib\AMF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\3DS\3DSHelper.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\3DS\3DSHelper.h">
       <Filter>AssetLib\3DS</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\3DS\3DSLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\3DS\3DSLoader.h">
       <Filter>AssetLib\3DS</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\AC\ACLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\AC\ACLoader.h">
       <Filter>AssetLib\AC</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\ASE\ASELoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\ASE\ASELoader.h">
       <Filter>AssetLib\ASE</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\ASE\ASEParser.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\ASE\ASEParser.h">
       <Filter>AssetLib\ASE</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Assbin\AssbinLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Assbin\AssbinLoader.h">
       <Filter>AssetLib\ASSBIN</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\B3D\B3DImporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\B3D\B3DImporter.h">
       <Filter>AssetLib\B3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\BVH\BVHLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\BVH\BVHLoader.h">
       <Filter>AssetLib\BVH</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Collada\ColladaHelper.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Collada\ColladaHelper.h">
       <Filter>AssetLib\COLLADA</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Collada\ColladaLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Collada\ColladaLoader.h">
       <Filter>AssetLib\COLLADA</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Collada\ColladaParser.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Collada\ColladaParser.h">
       <Filter>AssetLib\COLLADA</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\DXF\DXFLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\DXF\DXFLoader.h">
       <Filter>AssetLib\DXF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\DXF\DXFHelper.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\DXF\DXFHelper.h">
       <Filter>AssetLib\DXF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\CSM\CSMLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\CSM\CSMLoader.h">
       <Filter>AssetLib\CSM</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\HMP\HMPFileData.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\HMP\HMPFileData.h">
       <Filter>AssetLib\HMP</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\HMP\HMPLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\HMP\HMPLoader.h">
       <Filter>AssetLib\HMP</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\HMP\HalfLifeFileData.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\HMP\HalfLifeFileData.h">
       <Filter>AssetLib\HMP</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Irr\IRRMeshLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Irr\IRRMeshLoader.h">
       <Filter>AssetLib\IRRMESH</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Irr\IRRShared.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Irr\IRRShared.h">
       <Filter>AssetLib\IRRMESH</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\IQM\iqm.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\IQM\iqm.h">
       <Filter>AssetLib\IQM</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\IQM\IQMImporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\IQM\IQMImporter.h">
       <Filter>AssetLib\IQM</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Irr\IRRLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Irr\IRRLoader.h">
       <Filter>AssetLib\IRR</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\LWO\LWOAnimation.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\LWO\LWOAnimation.h">
       <Filter>AssetLib\LWO</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\LWO\LWOFileData.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\LWO\LWOFileData.h">
       <Filter>AssetLib\LWO</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\LWO\LWOLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\LWO\LWOLoader.h">
       <Filter>AssetLib\LWO</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\LWS\LWSLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\LWS\LWSLoader.h">
       <Filter>AssetLib\LWS</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\M3D\M3DMaterials.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\M3D\M3DMaterials.h">
       <Filter>AssetLib\M3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\M3D\M3DImporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\M3D\M3DImporter.h">
       <Filter>AssetLib\M3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\M3D\M3DWrapper.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\M3D\M3DWrapper.h">
       <Filter>AssetLib\M3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\M3D\m3d.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\M3D\m3d.h">
       <Filter>AssetLib\M3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MD2\MD2FileData.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MD2\MD2FileData.h">
       <Filter>AssetLib\MD2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MD2\MD2Loader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MD2\MD2Loader.h">
       <Filter>AssetLib\MD2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MD2\MD2NormalTable.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MD2\MD2NormalTable.h">
       <Filter>AssetLib\MD2</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MD3\MD3FileData.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MD3\MD3FileData.h">
       <Filter>AssetLib\MD3</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MD3\MD3Loader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MD3\MD3Loader.h">
       <Filter>AssetLib\MD3</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MD5\MD5Loader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MD5\MD5Loader.h">
       <Filter>AssetLib\MD5</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MD5\MD5Parser.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MD5\MD5Parser.h">
       <Filter>AssetLib\MD5</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MDC\MDCFileData.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MDC\MDCFileData.h">
       <Filter>AssetLib\MDC</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MDC\MDCLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MDC\MDCLoader.h">
       <Filter>AssetLib\MDC</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MDC\MDCNormalTable.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MDC\MDCNormalTable.h">
       <Filter>AssetLib\MDC</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MDL\MDLDefaultColorMap.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MDL\MDLDefaultColorMap.h">
       <Filter>AssetLib\MDL</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MDL\MDLFileData.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MDL\MDLFileData.h">
       <Filter>AssetLib\MDL</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MDL\MDLLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MDL\MDLLoader.h">
       <Filter>AssetLib\MDL</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MDL\HalfLife\HalfLifeMDLBaseHeader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MDL\HalfLife\HalfLifeMDLBaseHeader.h">
       <Filter>AssetLib\MDL</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MDL\HalfLife\HL1FileData.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MDL\HalfLife\HL1FileData.h">
       <Filter>AssetLib\MDL</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MDL\HalfLife\HL1MDLLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MDL\HalfLife\HL1MDLLoader.h">
       <Filter>AssetLib\MDL</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MDL\HalfLife\HL1ImportDefinitions.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MDL\HalfLife\HL1ImportDefinitions.h">
       <Filter>AssetLib\MDL</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MDL\HalfLife\HL1ImportSettings.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MDL\HalfLife\HL1ImportSettings.h">
       <Filter>AssetLib\MDL</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MDL\HalfLife\HL1MeshTrivert.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MDL\HalfLife\HL1MeshTrivert.h">
       <Filter>AssetLib\MDL</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MDL\HalfLife\LogFunctions.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MDL\HalfLife\LogFunctions.h">
       <Filter>AssetLib\MDL</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MDL\HalfLife\UniqueNameGenerator.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MDL\HalfLife\UniqueNameGenerator.h">
       <Filter>AssetLib\MDL</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\NFF\NFFLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\NFF\NFFLoader.h">
       <Filter>AssetLib\NFF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\NDO\NDOLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\NDO\NDOLoader.h">
       <Filter>AssetLib\NDO</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\OFF\OFFLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\OFF\OFFLoader.h">
       <Filter>AssetLib\OFF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Obj\ObjFileData.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Obj\ObjFileData.h">
       <Filter>AssetLib\OBJ</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Obj\ObjFileImporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Obj\ObjFileImporter.h">
       <Filter>AssetLib\OBJ</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Obj\ObjFileMtlImporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Obj\ObjFileMtlImporter.h">
       <Filter>AssetLib\OBJ</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Obj\ObjFileParser.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Obj\ObjFileParser.h">
       <Filter>AssetLib\OBJ</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Obj\ObjTools.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Obj\ObjTools.h">
       <Filter>AssetLib\OBJ</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Ogre\OgreImporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Ogre\OgreImporter.h">
       <Filter>AssetLib\OGRE</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Ogre\OgreStructs.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Ogre\OgreStructs.h">
       <Filter>AssetLib\OGRE</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Ogre\OgreParsingUtils.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Ogre\OgreParsingUtils.h">
       <Filter>AssetLib\OGRE</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Ogre\OgreBinarySerializer.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Ogre\OgreBinarySerializer.h">
       <Filter>AssetLib\OGRE</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Ogre\OgreXmlSerializer.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Ogre\OgreXmlSerializer.h">
       <Filter>AssetLib\OGRE</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\OpenGEX\OpenGEXImporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\OpenGEX\OpenGEXImporter.h">
       <Filter>AssetLib\OPENGEX</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\OpenGEX\OpenGEXStructs.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\OpenGEX\OpenGEXStructs.h">
       <Filter>AssetLib\OPENGEX</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Ply\PlyLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Ply\PlyLoader.h">
       <Filter>AssetLib\PLY</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Ply\PlyParser.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Ply\PlyParser.h">
       <Filter>AssetLib\PLY</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MS3D\MS3DLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MS3D\MS3DLoader.h">
       <Filter>AssetLib\MS3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\COB\COBLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\COB\COBLoader.h">
       <Filter>AssetLib\COB</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\COB\COBScene.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\COB\COBScene.h">
       <Filter>AssetLib\COB</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Blender\BlenderLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Blender\BlenderLoader.h">
       <Filter>AssetLib\BLEND</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Blender\BlenderDNA.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Blender\BlenderDNA.h">
       <Filter>AssetLib\BLEND</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Blender\BlenderDNA.inl">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Blender\BlenderDNA.inl">
       <Filter>AssetLib\BLEND</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Blender\BlenderScene.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Blender\BlenderScene.h">
       <Filter>AssetLib\BLEND</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Blender\BlenderSceneGen.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Blender\BlenderSceneGen.h">
       <Filter>AssetLib\BLEND</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Blender\BlenderIntermediate.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Blender\BlenderIntermediate.h">
       <Filter>AssetLib\BLEND</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Blender\BlenderModifier.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Blender\BlenderModifier.h">
       <Filter>AssetLib\BLEND</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Blender\BlenderBMesh.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Blender\BlenderBMesh.h">
       <Filter>AssetLib\BLEND</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Blender\BlenderTessellator.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Blender\BlenderTessellator.h">
       <Filter>AssetLib\BLEND</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Blender\BlenderCustomData.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Blender\BlenderCustomData.h">
       <Filter>AssetLib\BLEND</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\IFC\IFCLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\IFC\IFCLoader.h">
       <Filter>AssetLib\IFC</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\IFC\IFCReaderGen_2x3.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\IFC\IFCReaderGen_2x3.h">
       <Filter>AssetLib\IFC</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\IFC\IFCUtil.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\IFC\IFCUtil.h">
       <Filter>AssetLib\IFC</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\XGL\XGLLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\XGL\XGLLoader.h">
       <Filter>AssetLib\XGL</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXCompileConfig.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXCompileConfig.h">
       <Filter>AssetLib\FBX</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXImporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXImporter.h">
       <Filter>AssetLib\FBX</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXParser.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXParser.h">
       <Filter>AssetLib\FBX</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXTokenizer.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXTokenizer.h">
       <Filter>AssetLib\FBX</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXImportSettings.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXImportSettings.h">
       <Filter>AssetLib\FBX</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXConverter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXConverter.h">
       <Filter>AssetLib\FBX</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXUtil.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXUtil.h">
       <Filter>AssetLib\FBX</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXDocument.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXDocument.h">
       <Filter>AssetLib\FBX</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXProperties.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXProperties.h">
       <Filter>AssetLib\FBX</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXMeshGeometry.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXMeshGeometry.h">
       <Filter>AssetLib\FBX</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXCommon.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXCommon.h">
       <Filter>AssetLib\FBX</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Q3D\Q3DLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Q3D\Q3DLoader.h">
       <Filter>AssetLib\Q3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Q3BSP\Q3BSPFileData.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Q3BSP\Q3BSPFileData.h">
       <Filter>AssetLib\Q3BSP</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Q3BSP\Q3BSPFileParser.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Q3BSP\Q3BSPFileParser.h">
       <Filter>AssetLib\Q3BSP</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Q3BSP\Q3BSPFileImporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Q3BSP\Q3BSPFileImporter.h">
       <Filter>AssetLib\Q3BSP</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Raw\RawLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Raw\RawLoader.h">
       <Filter>AssetLib\RAW</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\SIB\SIBImporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\SIB\SIBImporter.h">
       <Filter>AssetLib\SIB</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\SMD\SMDLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\SMD\SMDLoader.h">
       <Filter>AssetLib\SMD</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\STL\STLLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\STL\STLLoader.h">
       <Filter>AssetLib\STL</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Terragen\TerragenLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Terragen\TerragenLoader.h">
       <Filter>AssetLib\TERRAGEN</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Unreal\UnrealLoader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Unreal\UnrealLoader.h">
       <Filter>AssetLib\3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X\XFileHelper.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X\XFileHelper.h">
       <Filter>AssetLib\X</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X\XFileImporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X\XFileImporter.h">
       <Filter>AssetLib\X</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X\XFileParser.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X\XFileParser.h">
       <Filter>AssetLib\X</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DImporter.hpp">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DImporter.hpp">
       <Filter>AssetLib\X3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DImporter_Macro.hpp">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DImporter_Macro.hpp">
       <Filter>AssetLib\X3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DImporter_Node.hpp">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DImporter_Node.hpp">
       <Filter>AssetLib\X3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DGeoHelper.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DGeoHelper.h">
       <Filter>AssetLib\X3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DXmlHelper.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DXmlHelper.h">
       <Filter>AssetLib\X3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\glTF\glTFCommon.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\glTF\glTFCommon.h">
       <Filter>AssetLib\GLTF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\glTF\glTFAsset.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\glTF\glTFAsset.h">
       <Filter>AssetLib\GLTF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\glTF\glTFAsset.inl">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\glTF\glTFAsset.inl">
       <Filter>AssetLib\GLTF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\glTF\glTFAssetWriter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\glTF\glTFAssetWriter.h">
       <Filter>AssetLib\GLTF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\glTF\glTFAssetWriter.inl">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\glTF\glTFAssetWriter.inl">
       <Filter>AssetLib\GLTF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\glTF\glTFImporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\glTF\glTFImporter.h">
       <Filter>AssetLib\GLTF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\glTF2\glTF2Asset.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\glTF2\glTF2Asset.h">
       <Filter>AssetLib\GLTF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\glTF2\glTF2Asset.inl">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\glTF2\glTF2Asset.inl">
       <Filter>AssetLib\GLTF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\glTF2\glTF2AssetWriter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\glTF2\glTF2AssetWriter.h">
       <Filter>AssetLib\GLTF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\glTF2\glTF2AssetWriter.inl">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\glTF2\glTF2AssetWriter.inl">
       <Filter>AssetLib\GLTF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\glTF2\glTF2Importer.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\glTF2\glTF2Importer.h">
       <Filter>AssetLib\GLTF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\3MF\3MFTypes.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\3MF\3MFTypes.h">
       <Filter>AssetLib\3MF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\3MF\XmlSerializer.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\3MF\XmlSerializer.h">
       <Filter>AssetLib\3MF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\3MF\D3MFImporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\3MF\D3MFImporter.h">
       <Filter>AssetLib\3MF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\3MF\D3MFOpcPackage.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\3MF\D3MFOpcPackage.h">
       <Filter>AssetLib\3MF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\3MF\3MFXmlTags.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\3MF\3MFXmlTags.h">
       <Filter>AssetLib\3MF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MMD\MMDCpp14.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MMD\MMDCpp14.h">
       <Filter>AssetLib\MMD</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MMD\MMDImporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MMD\MMDImporter.h">
       <Filter>AssetLib\MMD</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MMD\MMDPmdParser.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MMD\MMDPmdParser.h">
       <Filter>AssetLib\MMD</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MMD\MMDPmxParser.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MMD\MMDPmxParser.h">
       <Filter>AssetLib\MMD</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\MMD\MMDVmdParser.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\MMD\MMDVmdParser.h">
       <Filter>AssetLib\MMD</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Obj\ObjExporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Obj\ObjExporter.h">
       <Filter>AssetLib\OBJ</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\OpenGEX\OpenGEXExporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\OpenGEX\OpenGEXExporter.h">
       <Filter>AssetLib\OPENGEX</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Ply\PlyExporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Ply\PlyExporter.h">
       <Filter>AssetLib\PLY</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\3DS\3DSExporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\3DS\3DSExporter.h">
       <Filter>AssetLib\3DS</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Assbin\AssbinExporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Assbin\AssbinExporter.h">
       <Filter>AssetLib\ASSBIN</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Assbin\AssbinFileWriter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Assbin\AssbinFileWriter.h">
       <Filter>AssetLib\ASSBIN</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Assxml\AssxmlExporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Assxml\AssxmlExporter.h">
       <Filter>AssetLib\ASSXML</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Assxml\AssxmlFileWriter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Assxml\AssxmlFileWriter.h">
       <Filter>AssetLib\ASSXML</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\M3D\M3DExporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\M3D\M3DExporter.h">
       <Filter>AssetLib\M3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Collada\ColladaExporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Collada\ColladaExporter.h">
       <Filter>AssetLib\COLLADA</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXExporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXExporter.h">
       <Filter>AssetLib\FBX</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXExportNode.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXExportNode.h">
       <Filter>AssetLib\FBX</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\FBX\FBXExportProperty.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\FBX\FBXExportProperty.h">
       <Filter>AssetLib\FBX</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\STL\STLExporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\STL\STLExporter.h">
       <Filter>AssetLib\STL</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X\XFileExporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X\XFileExporter.h">
       <Filter>AssetLib\X</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\X3D\X3DExporter.hpp">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\X3D\X3DExporter.hpp">
       <Filter>AssetLib\X3D</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\glTF\glTFExporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\glTF\glTFExporter.h">
       <Filter>AssetLib\GLTF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\glTF2\glTF2Exporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\glTF2\glTF2Exporter.h">
       <Filter>AssetLib\GLTF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\3MF\D3MFExporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\3MF\D3MFExporter.h">
       <Filter>AssetLib\3MF</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\Pbrt\PbrtExporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\Pbrt\PbrtExporter.h">
       <Filter>AssetLib\PBRT</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Assjson\cencode.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Assjson\cencode.h">
       <Filter>AssetLib\ASSJSON</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Assjson\mesh_splitter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Assjson\mesh_splitter.h">
       <Filter>AssetLib\ASSJSON</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\code\AssetLib\Step\StepExporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\AssetLib\Step\StepExporter.h">
       <Filter>AssetLib\STEP</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\unzip\crypt.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\unzip\crypt.h">
       <Filter>Contrib\unzip</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\unzip\ioapi.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\unzip\ioapi.h">
       <Filter>Contrib\unzip</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\unzip\unzip.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\unzip\unzip.h">
       <Filter>Contrib\unzip</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\poly2tri\poly2tri\common\shapes.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\poly2tri\poly2tri\common\shapes.h">
       <Filter>Contrib\Poly2Tri</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\poly2tri\poly2tri\common\utils.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\poly2tri\poly2tri\common\utils.h">
       <Filter>Contrib\Poly2Tri</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
       <Filter>Contrib\Poly2Tri</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\poly2tri\poly2tri\sweep\cdt.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\poly2tri\poly2tri\sweep\cdt.h">
       <Filter>Contrib\Poly2Tri</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\poly2tri\poly2tri\sweep\sweep.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\poly2tri\poly2tri\sweep\sweep.h">
       <Filter>Contrib\Poly2Tri</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
       <Filter>Contrib\Poly2Tri</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\clipper\clipper.hpp">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\clipper\clipper.hpp">
       <Filter>Contrib\Clipper</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
       <Filter>Contrib\openddl_parser</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
       <Filter>Contrib\openddl_parser</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
       <Filter>Contrib\openddl_parser</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
       <Filter>Contrib\openddl_parser</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\openddlparser\include\openddlparser\OpenDDLStream.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\openddlparser\include\openddlparser\OpenDDLStream.h">
       <Filter>Contrib\openddl_parser</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\openddlparser\include\openddlparser\DDLNode.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\openddlparser\include\openddlparser\DDLNode.h">
       <Filter>Contrib\openddl_parser</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\openddlparser\include\openddlparser\Value.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\openddlparser\include\openddlparser\Value.h">
       <Filter>Contrib\openddl_parser</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcAdjacencyInfo.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcAdjacencyInfo.h">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcArithmeticCodec.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcArithmeticCodec.h">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcBinaryStream.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcBinaryStream.h">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcCommon.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcCommon.h">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcDVEncodeParams.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcDVEncodeParams.h">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcDynamicVector.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcDynamicVector.h">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcFIFO.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcFIFO.h">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.h">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.inl">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.inl">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.h">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.h">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcTimer.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcTimer.h">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcTriangleFans.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcTriangleFans.h">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.h">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.inl">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.inl">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.h">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.inl">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.inl">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcVector.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcVector.h">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\Open3DGC\o3dgcVector.inl">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\Open3DGC\o3dgcVector.inl">
       <Filter>Contrib\open3dgc</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\zip\src\miniz.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zip\src\miniz.h">
       <Filter>ziplib</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\zip\src\zip.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zip\src\zip.h">
       <Filter>ziplib</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\pugixml\src\pugiconfig.hpp">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\pugixml\src\pugiconfig.hpp">
       <Filter>Contrib\Pugixml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\pugixml\src\pugixml.hpp">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\pugixml\src\pugixml.hpp">
       <Filter>Contrib\Pugixml</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\stb\stb_image.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\stb\stb_image.h">
       <Filter>Contrib\stb</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\anim.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\anim.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\aabb.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\aabb.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\ai_assert.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\ai_assert.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\camera.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\camera.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\color4.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\color4.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\color4.inl">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\color4.inl">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\config.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\config.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\ColladaMetaData.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\ColladaMetaData.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\commonMetaData.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\commonMetaData.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\defs.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\defs.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\cfileio.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\cfileio.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\light.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\light.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\material.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\material.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\material.inl">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\material.inl">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\matrix3x3.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\matrix3x3.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\matrix3x3.inl">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\matrix3x3.inl">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\matrix4x4.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\matrix4x4.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\matrix4x4.inl">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\matrix4x4.inl">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\mesh.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\mesh.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\ObjMaterial.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\ObjMaterial.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\pbrmaterial.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\pbrmaterial.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\GltfMaterial.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\GltfMaterial.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\postprocess.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\postprocess.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\quaternion.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\quaternion.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\quaternion.inl">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\quaternion.inl">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\scene.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\scene.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\metadata.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\metadata.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\texture.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\texture.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\types.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\types.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\vector2.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\vector2.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\vector2.inl">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\vector2.inl">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\vector3.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\vector3.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\vector3.inl">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\vector3.inl">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\version.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\version.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\cimport.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\cimport.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\importerdesc.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\importerdesc.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\Importer.hpp">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\Importer.hpp">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\ProgressHandler.hpp">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\ProgressHandler.hpp">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\IOStream.hpp">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\IOStream.hpp">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\IOSystem.hpp">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\IOSystem.hpp">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\cexport.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\cexport.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\Exporter.hpp">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\Exporter.hpp">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\DefaultIOStream.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\DefaultIOStream.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\DefaultIOSystem.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\DefaultIOSystem.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\ZipArchiveIOSystem.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\ZipArchiveIOSystem.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\SceneCombiner.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\SceneCombiner.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\fast_atof.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\fast_atof.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\qnan.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\qnan.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\BaseImporter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\BaseImporter.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\Hash.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\Hash.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\MemoryIOWrapper.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\MemoryIOWrapper.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\ParsingUtils.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\ParsingUtils.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\StreamReader.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\StreamReader.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\StreamWriter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\StreamWriter.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\StringComparison.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\StringComparison.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\StringUtils.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\StringUtils.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\SGSpatialSort.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\SGSpatialSort.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\GenericProperty.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\GenericProperty.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\SpatialSort.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\SpatialSort.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\SkeletonMeshBuilder.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\SkeletonMeshBuilder.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\SmallVector.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\SmallVector.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\SmoothingGroups.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\SmoothingGroups.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\SmoothingGroups.inl">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\SmoothingGroups.inl">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\StandardShapes.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\StandardShapes.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\RemoveComments.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\RemoveComments.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\Subdivision.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\Subdivision.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\Vertex.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\Vertex.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\LineSplitter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\LineSplitter.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\TinyFormatter.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\TinyFormatter.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\Profiler.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\Profiler.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\LogAux.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\LogAux.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\Bitmap.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\Bitmap.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\XMLTools.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\XMLTools.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\IOStreamBuffer.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\IOStreamBuffer.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\CreateAnimMesh.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\CreateAnimMesh.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\XmlParser.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\XmlParser.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\MathFunctions.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\MathFunctions.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\Exceptional.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\Exceptional.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\ByteSwapper.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\ByteSwapper.h">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\Base64.hpp">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\Base64.hpp">
       <Filter>include\assimp</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\Compiler\pushpack1.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\Compiler\pushpack1.h">
       <Filter>Compiler</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\Compiler\poppack1.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\Compiler\poppack1.h">
       <Filter>Compiler</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\include\assimp\Compiler\pstdint.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\Compiler\pstdint.h">
       <Filter>Compiler</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\DoubleT\source\repos\assimp\code\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="C:\Users\DoubleT\source\repos\assimp\code\res\assimp.rc">
+    <ResourceCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code\res\assimp.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="AssetLib">
-      <UniqueIdentifier>{38F952F9-D818-3E6D-8613-E5BBCFE1F5F0}</UniqueIdentifier>
+      <UniqueIdentifier>{ADE9325A-BB66-3924-9C20-DBFAC207D8E8}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\3D">
-      <UniqueIdentifier>{05E48609-77EA-369E-A6B5-1C1E580896F2}</UniqueIdentifier>
+      <UniqueIdentifier>{FE92991B-02AC-3BC9-AC2A-BC4541D5970F}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\3DS">
-      <UniqueIdentifier>{EBD27C13-9178-30C9-8ADD-894F63C238B1}</UniqueIdentifier>
+      <UniqueIdentifier>{3C049F3A-3114-3AC5-95FD-96F2FCA54928}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\3MF">
-      <UniqueIdentifier>{A48266BD-7D1B-3AAF-8B0A-B930AD7640C8}</UniqueIdentifier>
+      <UniqueIdentifier>{91E1579C-E486-3C08-A8BC-CF22723648C8}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\AC">
-      <UniqueIdentifier>{EF34B071-38FA-336F-9171-D0A8ECC2DB90}</UniqueIdentifier>
+      <UniqueIdentifier>{FCBF5E3F-6B6B-3FA0-AEF4-74B173C39CA9}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\AMF">
-      <UniqueIdentifier>{8E5DAC9C-5830-3970-8429-B5413665E989}</UniqueIdentifier>
+      <UniqueIdentifier>{90935E2B-17EE-3FEC-8FED-2966D20D7B1D}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\ASE">
-      <UniqueIdentifier>{9E662AC9-2E78-3AB1-BF99-A688F515D282}</UniqueIdentifier>
+      <UniqueIdentifier>{B1D34AD1-F2D5-3E92-94F0-A90B0A5FA53B}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\ASSBIN">
-      <UniqueIdentifier>{39044FC9-A8A5-36B2-B2D3-7E05BA160C92}</UniqueIdentifier>
+      <UniqueIdentifier>{C5CA4EF2-F7E8-303C-8FAD-9DF0A09A4AA1}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\ASSJSON">
-      <UniqueIdentifier>{DB6C174E-3ACD-3F24-9236-EFA3F2EC4FB7}</UniqueIdentifier>
+      <UniqueIdentifier>{02AE1323-9752-368E-B090-8FB524493CF0}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\ASSXML">
-      <UniqueIdentifier>{3DEAF881-1145-3903-B960-4D82F65C05FA}</UniqueIdentifier>
+      <UniqueIdentifier>{D6F1012D-D78C-3B00-BF9F-529EA9458BAE}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\B3D">
-      <UniqueIdentifier>{72948A3C-529A-3E1D-99FD-2BD5633AAD93}</UniqueIdentifier>
+      <UniqueIdentifier>{73DE1413-44FA-3AEB-AD73-22E16AA872D9}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\BLEND">
-      <UniqueIdentifier>{E568F479-4DF3-36B2-BCC6-7231E71B767F}</UniqueIdentifier>
+      <UniqueIdentifier>{E1D6AA29-1CF0-3E26-8507-E93E561B1CBB}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\BVH">
-      <UniqueIdentifier>{10BA96B5-35C5-3F4C-BCC9-2FEFA69EB7C6}</UniqueIdentifier>
+      <UniqueIdentifier>{5D071E6C-FB09-3706-8AF8-2996056CB256}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\COB">
-      <UniqueIdentifier>{AFD20E63-B31F-3632-8D8B-53DC8B14ECD1}</UniqueIdentifier>
+      <UniqueIdentifier>{F34BE85C-1347-3E8F-A0F9-742917545752}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\COLLADA">
-      <UniqueIdentifier>{EDCB4829-7B98-361A-90E1-D86B5F0CCB7F}</UniqueIdentifier>
+      <UniqueIdentifier>{75A14979-2E62-316D-9DE5-7F3E893B92A8}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\CSM">
-      <UniqueIdentifier>{713038C7-3F89-380D-A191-96A3047CEA79}</UniqueIdentifier>
+      <UniqueIdentifier>{03A9B31A-CAA6-3E89-90FD-3B1FF24C2E9B}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\DXF">
-      <UniqueIdentifier>{49E428A4-5D6B-3CBE-ACE8-FC97047A4164}</UniqueIdentifier>
+      <UniqueIdentifier>{793C0788-2DD0-321A-81D4-3A9E061F906D}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\FBX">
-      <UniqueIdentifier>{D9EF9B0E-E982-3364-A681-CFB58D6EE602}</UniqueIdentifier>
+      <UniqueIdentifier>{5863F887-DE2E-3A7F-9612-13EEB4563A90}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\GLTF">
-      <UniqueIdentifier>{338CF069-F98D-3355-A334-62FC7B53B7D5}</UniqueIdentifier>
+      <UniqueIdentifier>{15DAB463-F770-38F7-BAA8-907819167D27}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\HMP">
-      <UniqueIdentifier>{F4216507-5DBE-3BD0-8EAA-E2BB141D840E}</UniqueIdentifier>
+      <UniqueIdentifier>{24333345-4F96-3BFE-9225-DAFFEDAD6648}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\IFC">
-      <UniqueIdentifier>{F074DA8E-AC5B-30DA-B89D-16AEECC0AFCB}</UniqueIdentifier>
+      <UniqueIdentifier>{15A603C7-EB3E-309F-97CB-927B12062190}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\IQM">
-      <UniqueIdentifier>{AC1B9C24-C42E-33BC-B059-C2CAB2763FB7}</UniqueIdentifier>
+      <UniqueIdentifier>{540409D4-E78E-35ED-9B55-AD3D974CB604}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\IRR">
-      <UniqueIdentifier>{3D7F43BF-F17B-33DA-BBE1-49AC56980AE4}</UniqueIdentifier>
+      <UniqueIdentifier>{C0366D76-1F56-3C6A-9550-57B693D36A00}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\IRRMESH">
-      <UniqueIdentifier>{7813BBE7-B6D7-34AF-A628-B696F7C4F112}</UniqueIdentifier>
+      <UniqueIdentifier>{2AF23FA0-3FFB-3947-9BA6-F38F0B5FE6B8}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\LWO">
-      <UniqueIdentifier>{A9D9D952-4ADB-3A8B-A20B-19AEEB069D14}</UniqueIdentifier>
+      <UniqueIdentifier>{B39DAA42-5FFE-3CEC-8D78-A77B41E28455}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\LWS">
-      <UniqueIdentifier>{70FA8D66-79A0-39F1-87C1-097611ED21CF}</UniqueIdentifier>
+      <UniqueIdentifier>{44EDDE63-4497-3A86-BD22-F44ED0520518}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\M3D">
-      <UniqueIdentifier>{AF6866EC-D5D8-370C-862C-7C11F382E325}</UniqueIdentifier>
+      <UniqueIdentifier>{CA42621A-B087-3DAD-8275-B3FAE4DD0AEE}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\MD2">
-      <UniqueIdentifier>{791E1766-2C2F-3D5B-8D52-4B1F85740729}</UniqueIdentifier>
+      <UniqueIdentifier>{58BD4019-2995-35A0-AFEA-E1940AF9F878}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\MD3">
-      <UniqueIdentifier>{EF76B45A-6024-37A0-A701-0216268F2813}</UniqueIdentifier>
+      <UniqueIdentifier>{16D43B10-985B-3231-B364-37D2E9D62494}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\MD5">
-      <UniqueIdentifier>{3D9FB3AC-085F-30ED-9434-9A1454B326E9}</UniqueIdentifier>
+      <UniqueIdentifier>{69436715-6937-3AB2-B16E-3C5C3BBC9779}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\MDC">
-      <UniqueIdentifier>{0BF3401E-E6FB-3F09-969E-118FC081B8D7}</UniqueIdentifier>
+      <UniqueIdentifier>{AA22E722-02CA-3229-9FB7-98867D7DE345}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\MDL">
-      <UniqueIdentifier>{63E425ED-6C2D-3130-A2ED-2AE22D723498}</UniqueIdentifier>
+      <UniqueIdentifier>{78F238DE-521B-3066-9807-CD2FF0DC4D3E}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\MMD">
-      <UniqueIdentifier>{3F267811-0EEE-38ED-BECC-127F8688BED5}</UniqueIdentifier>
+      <UniqueIdentifier>{A3C1DC81-FA58-33A9-86D1-A916BEA20EF0}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\MS3D">
-      <UniqueIdentifier>{CCD1D679-EC5D-3159-80B1-80DB3A294FF6}</UniqueIdentifier>
+      <UniqueIdentifier>{ABDE93BE-675C-3625-B30F-017505671E45}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\NDO">
-      <UniqueIdentifier>{F4A8EE67-67B3-3E95-8F38-04232680971B}</UniqueIdentifier>
+      <UniqueIdentifier>{0A157DED-2C47-3FED-AC8F-94F8AB67C5CA}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\NFF">
-      <UniqueIdentifier>{3C04E48B-1AB2-34DD-8917-3EC02E6C6310}</UniqueIdentifier>
+      <UniqueIdentifier>{08A3999F-4973-3C7F-B774-A8B09BAD89FB}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\OBJ">
-      <UniqueIdentifier>{7905635B-7178-3DA8-8867-0A77751A393B}</UniqueIdentifier>
+      <UniqueIdentifier>{CE6EB3D5-CDD4-39F4-A7A9-BB4C547BC1C7}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\OFF">
-      <UniqueIdentifier>{0D2651A4-6A44-35AE-8163-2CBA4C40158B}</UniqueIdentifier>
+      <UniqueIdentifier>{C6B860CA-92CA-3AEC-976D-7FC9001E9D3A}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\OGRE">
-      <UniqueIdentifier>{D78E44C0-C21F-3B0F-8AF5-ED0FE51117B9}</UniqueIdentifier>
+      <UniqueIdentifier>{2ED2177E-B28B-3763-BFD0-2ADA72F9B51E}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\OPENGEX">
-      <UniqueIdentifier>{0E1D677C-B91E-35E4-B2B7-56C96F925407}</UniqueIdentifier>
+      <UniqueIdentifier>{A3F387A8-0482-3FC2-9D3B-D24EAEB6172D}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\PBRT">
-      <UniqueIdentifier>{AFF40345-725D-320D-964A-BF591B1088C9}</UniqueIdentifier>
+      <UniqueIdentifier>{7426DEDD-501F-3389-BC8D-6DF564E35DB4}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\PLY">
-      <UniqueIdentifier>{D5131F32-B690-3AF3-9E11-E71FFA714CA7}</UniqueIdentifier>
+      <UniqueIdentifier>{A8904EE8-52B2-33D4-AC58-908360554C68}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\Q3BSP">
-      <UniqueIdentifier>{430ADD1E-1169-35B2-9704-6DBCAD6E8848}</UniqueIdentifier>
+      <UniqueIdentifier>{69677848-BB37-3FB9-A4B8-44D7F0AB79AE}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\Q3D">
-      <UniqueIdentifier>{781E5B39-0F6C-32FA-87E6-F9DD26C474AB}</UniqueIdentifier>
+      <UniqueIdentifier>{8F047A57-F2CF-325F-9026-D012D779336D}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\RAW">
-      <UniqueIdentifier>{D3FCD692-D518-3153-916B-F1749485DDC4}</UniqueIdentifier>
+      <UniqueIdentifier>{5317E901-DE23-3268-8D1C-C73D14340C12}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\SIB">
-      <UniqueIdentifier>{7395B1BB-2D51-35C6-A561-437CDD79CE29}</UniqueIdentifier>
+      <UniqueIdentifier>{00664E2D-4C16-3455-862C-B6027F4AC5EF}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\SMD">
-      <UniqueIdentifier>{265FD11B-B134-3FB5-AA13-24FB19119F2E}</UniqueIdentifier>
+      <UniqueIdentifier>{673878FB-5B97-3C0C-BA33-FB2B5BE94CDF}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\STEP">
-      <UniqueIdentifier>{28325F87-47C2-3AAF-88E0-AC3E8364C204}</UniqueIdentifier>
+      <UniqueIdentifier>{F1EC96CD-3EC3-3354-B550-A900CA898512}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\STL">
-      <UniqueIdentifier>{9E764F22-1EEE-3390-8DE9-5C7BBFE016EC}</UniqueIdentifier>
+      <UniqueIdentifier>{9527013A-A779-39A5-A6DE-BA81E3FA40E6}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\TERRAGEN">
-      <UniqueIdentifier>{DF7C04A5-5851-3EBC-A78E-5B32E7F966BC}</UniqueIdentifier>
+      <UniqueIdentifier>{ED4B8C4C-D207-3723-BFDD-8A7195FE8C63}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\X">
-      <UniqueIdentifier>{62055321-F5DE-3222-B96C-FB727F91A125}</UniqueIdentifier>
+      <UniqueIdentifier>{3D65BBBE-41DD-370A-850C-90AF2E4E7ED2}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\X3D">
-      <UniqueIdentifier>{6DD15AD1-F9E8-3549-A0CB-61F65CFBE715}</UniqueIdentifier>
+      <UniqueIdentifier>{F924D595-4F93-3BAE-AE9F-DC8D3C3733D9}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\XGL">
-      <UniqueIdentifier>{0FA61FC4-979F-32E4-A45B-4291F8D728E5}</UniqueIdentifier>
+      <UniqueIdentifier>{D9B03E23-37D1-34F8-A848-71DE1D8A7CF9}</UniqueIdentifier>
     </Filter>
     <Filter Include="CApi">
-      <UniqueIdentifier>{AA5851B1-DDC2-39CB-A7F2-FA7D14D86221}</UniqueIdentifier>
+      <UniqueIdentifier>{DE30BCED-ECBC-35D9-A44D-7E848B529123}</UniqueIdentifier>
     </Filter>
     <Filter Include="Common">
-      <UniqueIdentifier>{C14FEA57-6D2D-33EA-8F6F-8F7CE0998DA3}</UniqueIdentifier>
+      <UniqueIdentifier>{6488B09F-96BA-371A-A804-3B57EB170A12}</UniqueIdentifier>
     </Filter>
     <Filter Include="Compiler">
-      <UniqueIdentifier>{99EEBBC5-C0DD-3377-96EB-C1DC76D00EAB}</UniqueIdentifier>
+      <UniqueIdentifier>{35D29BD9-6343-36D4-BE99-EE122C963A56}</UniqueIdentifier>
     </Filter>
     <Filter Include="Contrib">
-      <UniqueIdentifier>{A5EA2182-B70F-35E1-A0F3-3E9A57D7425D}</UniqueIdentifier>
+      <UniqueIdentifier>{CCD80653-30EE-3911-AEAC-27B6B46F1FA4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Contrib\Clipper">
-      <UniqueIdentifier>{35D327C2-D0AB-3F34-9876-1AD4772EBDA2}</UniqueIdentifier>
+      <UniqueIdentifier>{E60DF8CA-CABB-3621-BF19-CD5C04D0C7E2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Contrib\Poly2Tri">
-      <UniqueIdentifier>{28BFA12F-5F29-3253-98FD-6449F4FEFC3C}</UniqueIdentifier>
+      <UniqueIdentifier>{F08AA93D-D534-33AB-BD30-53067A0AEE6F}</UniqueIdentifier>
     </Filter>
     <Filter Include="Contrib\Pugixml">
-      <UniqueIdentifier>{6E8F8145-E2C9-3E99-9211-EBCAA7541914}</UniqueIdentifier>
+      <UniqueIdentifier>{1FB84BA4-1A0E-3C42-85BE-C8AE72376079}</UniqueIdentifier>
     </Filter>
     <Filter Include="Contrib\open3dgc">
-      <UniqueIdentifier>{C766D7C5-8E74-38E1-81D6-3D6DAABA708D}</UniqueIdentifier>
+      <UniqueIdentifier>{C5C1C075-6CCF-323F-A071-A6ACF971CD17}</UniqueIdentifier>
     </Filter>
     <Filter Include="Contrib\openddl_parser">
-      <UniqueIdentifier>{17BCD01C-7A2B-3797-8A41-C6AA7CB217DC}</UniqueIdentifier>
+      <UniqueIdentifier>{24ED6B38-0B94-322E-95EF-E397B33E8FBA}</UniqueIdentifier>
     </Filter>
     <Filter Include="Contrib\stb">
-      <UniqueIdentifier>{58970D96-3D32-31FD-8627-7CA0F29A6561}</UniqueIdentifier>
+      <UniqueIdentifier>{8639BFF9-DE20-3406-BF9D-1FF7A3C15727}</UniqueIdentifier>
     </Filter>
     <Filter Include="Contrib\unzip">
-      <UniqueIdentifier>{3954A0E4-BE95-3A71-8BD2-BA26DFDBDEB0}</UniqueIdentifier>
+      <UniqueIdentifier>{1BE95C2D-D69B-3FF1-9527-B098CE86253D}</UniqueIdentifier>
     </Filter>
     <Filter Include="Exporter">
-      <UniqueIdentifier>{2323D94A-AB61-38EF-B122-C0DAAD9ED3F9}</UniqueIdentifier>
+      <UniqueIdentifier>{64BBDB2E-5612-3BE7-8865-4E0E0CFC7EF3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Logging">
-      <UniqueIdentifier>{CE881CA3-824D-3712-BD9B-EBE0AFEE1121}</UniqueIdentifier>
+      <UniqueIdentifier>{0DCE3638-DBBC-340B-81D3-D686E9BC7FC2}</UniqueIdentifier>
     </Filter>
     <Filter Include="MaterialSystem">
-      <UniqueIdentifier>{2313C194-6FBD-397F-8C89-D19ED4B00643}</UniqueIdentifier>
+      <UniqueIdentifier>{CEDFC74A-57CA-34BD-A9D6-65096456EB8D}</UniqueIdentifier>
     </Filter>
     <Filter Include="PostProcessing">
-      <UniqueIdentifier>{A2E28EEA-9A84-39A5-B204-90E8A77DB976}</UniqueIdentifier>
+      <UniqueIdentifier>{659F251C-EB68-3FCB-B542-EA1F3075D92F}</UniqueIdentifier>
     </Filter>
     <Filter Include="STEPParser">
-      <UniqueIdentifier>{055EF608-F165-3687-9B5A-FDFFCF87D9A9}</UniqueIdentifier>
+      <UniqueIdentifier>{DA668495-8BBF-394E-ADF0-C8FC370B188A}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{86C62C76-D764-3370-8344-73A844A3C353}</UniqueIdentifier>
+      <UniqueIdentifier>{068F0895-7AC6-3670-BA92-59AA73C642D6}</UniqueIdentifier>
     </Filter>
     <Filter Include="include">
-      <UniqueIdentifier>{BC437AB8-212D-3761-B0E2-8AF4E8DC68FA}</UniqueIdentifier>
+      <UniqueIdentifier>{1847A573-D786-3C8D-9164-18CAF234097C}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\assimp">
-      <UniqueIdentifier>{D1EFEF6B-48E7-361D-AEA5-91C112EBE853}</UniqueIdentifier>
+      <UniqueIdentifier>{7F9CB01C-1797-30B6-B0B8-72B157609D5C}</UniqueIdentifier>
     </Filter>
     <Filter Include="ziplib">
-      <UniqueIdentifier>{F7187C8B-FC77-39B2-A246-3462AF3A8481}</UniqueIdentifier>
+      <UniqueIdentifier>{1E48369B-9B07-31A3-AEC2-4E3EF32489FA}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

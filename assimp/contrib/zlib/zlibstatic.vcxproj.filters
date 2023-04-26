@@ -1,96 +1,96 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\adler32.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\adler32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\compress.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\compress.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\crc32.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\crc32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\deflate.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\deflate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\gzclose.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\gzclose.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\gzlib.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\gzlib.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\gzread.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\gzread.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\gzwrite.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\gzwrite.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\inflate.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\inflate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\infback.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\infback.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\inftrees.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\inftrees.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\inffast.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\inffast.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\trees.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\trees.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\uncompr.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\uncompr.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\zutil.c">
+    <ClCompile Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\zutil.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\zconf.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\zconf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\zlib.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\zlib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\crc32.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\crc32.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\deflate.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\deflate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\gzguts.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\gzguts.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\inffast.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\inffast.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\inffixed.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\inffixed.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\inflate.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\inflate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\inftrees.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\inftrees.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\trees.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\trees.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\zutil.h">
+    <ClInclude Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\zutil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\DoubleT\source\repos\assimp\contrib\zlib\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{59BEE432-0781-38E5-AC61-7A1D0235C94F}</UniqueIdentifier>
+      <UniqueIdentifier>{EAB19089-630F-3CAC-956E-7D7320A90AD9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{86C62C76-D764-3370-8344-73A844A3C353}</UniqueIdentifier>
+      <UniqueIdentifier>{068F0895-7AC6-3670-BA92-59AA73C642D6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

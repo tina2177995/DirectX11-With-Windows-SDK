@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DoubleT/source/repos/assimp
+# Install script for directory: C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "libassimp5.2.0-dev" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2" TYPE FILE FILES
-    "C:/Users/DoubleT/source/repos/assimp/generated/assimpConfig.cmake"
-    "C:/Users/DoubleT/source/repos/assimp/generated/assimpConfigVersion.cmake"
+    "C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/generated/assimpConfig.cmake"
+    "C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/generated/assimpConfigVersion.cmake"
     )
 endif()
 
@@ -43,7 +43,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libassimp5.2.0-dev" OR NOT CMAKE_INSTALL_CO
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2/assimpTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2/assimpTargets.cmake"
-         "C:/Users/DoubleT/source/repos/assimp/CMakeFiles/Export/f1f86f75407ff2a2c6a2eadbb93d9f6f/assimpTargets.cmake")
+         "C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/CMakeFiles/Export/f1f86f75407ff2a2c6a2eadbb93d9f6f/assimpTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2/assimpTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -56,19 +56,19 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libassimp5.2.0-dev" OR NOT CMAKE_INSTALL_CO
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2" TYPE FILE FILES "C:/Users/DoubleT/source/repos/assimp/CMakeFiles/Export/f1f86f75407ff2a2c6a2eadbb93d9f6f/assimpTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2" TYPE FILE FILES "C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/CMakeFiles/Export/f1f86f75407ff2a2c6a2eadbb93d9f6f/assimpTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2" TYPE FILE FILES "C:/Users/DoubleT/source/repos/assimp/CMakeFiles/Export/f1f86f75407ff2a2c6a2eadbb93d9f6f/assimpTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2" TYPE FILE FILES "C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/CMakeFiles/Export/f1f86f75407ff2a2c6a2eadbb93d9f6f/assimpTargets-debug.cmake")
   endif()
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2" TYPE FILE FILES "C:/Users/DoubleT/source/repos/assimp/CMakeFiles/Export/f1f86f75407ff2a2c6a2eadbb93d9f6f/assimpTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2" TYPE FILE FILES "C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/CMakeFiles/Export/f1f86f75407ff2a2c6a2eadbb93d9f6f/assimpTargets-release.cmake")
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/DoubleT/source/repos/assimp/contrib/zlib/cmake_install.cmake")
-  include("C:/Users/DoubleT/source/repos/assimp/code/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/contrib/zlib/cmake_install.cmake")
+  include("C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/code/cmake_install.cmake")
 
 endif()
 

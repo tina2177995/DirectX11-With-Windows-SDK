@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5970CE7F-5C98-35D7-84AF-3443F158F5A2}</ProjectGuid>
+    <ProjectGuid>{40FA7E55-9A19-3FFF-B0C4-436C7681F47D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -46,7 +46,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos\assimp\include;C:\Users\DoubleT\source\repos\assimp;C:\Users\DoubleT\source\repos\assimp\code;C:\Users\DoubleT\source\repos\assimp\.;C:\Users\DoubleT\source\repos\assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\.;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -56,7 +56,7 @@
     <PostBuildEvent>
       <Message>							</Message>
       <Command>setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos/code/Release/assimp-vc143-mt.dll C:/Users/DoubleT/source/repos/assimp/bin64/assimp-vc143-mt.dll
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/code/Release/assimp-vc143-mt.dll C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/bin64/assimp-vc143-mt.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -65,7 +65,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos/code/Release/assimp-vc143-mt.exp C:/Users/DoubleT/source/repos/assimp/lib64/assimp-vc143-mt.exp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/code/Release/assimp-vc143-mt.exp C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/lib64/assimp-vc143-mt.exp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -74,7 +74,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos/code/Release/assimp-vc143-mt.lib C:/Users/DoubleT/source/repos/assimp/lib64/assimp-vc143-mt.lib
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/code/Release/assimp-vc143-mt.lib C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/lib64/assimp-vc143-mt.lib
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -83,7 +83,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos/code/Debug/assimp-vc143-mtd.dll C:/Users/DoubleT/source/repos/assimp/bin64/assimp-vc143-mtd.dll
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/code/Debug/assimp-vc143-mtd.dll C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/bin64/assimp-vc143-mtd.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -92,7 +92,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos/code/Debug/assimp-vc143-mtd.exp C:/Users/DoubleT/source/repos/assimp/lib64/assimp-vc143-mtd.exp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/code/Debug/assimp-vc143-mtd.exp C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/lib64/assimp-vc143-mtd.exp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -101,7 +101,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos/code/Debug/assimp-vc143-mtd.ilk C:/Users/DoubleT/source/repos/assimp/lib64/assimp-vc143-mtd.ilk
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/code/Debug/assimp-vc143-mtd.ilk C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/lib64/assimp-vc143-mtd.ilk
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -110,7 +110,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos/code/Debug/assimp-vc143-mtd.lib C:/Users/DoubleT/source/repos/assimp/lib64/assimp-vc143-mtd.lib
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/code/Debug/assimp-vc143-mtd.lib C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/lib64/assimp-vc143-mtd.lib
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -119,7 +119,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos/code/Debug/assimp-vc143-mtd.pdb C:/Users/DoubleT/source/repos/assimp/lib64/assimp-vc143-mtd.pdb
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/code/Debug/assimp-vc143-mtd.pdb C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/lib64/assimp-vc143-mtd.pdb
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,7 +131,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos\assimp\include;C:\Users\DoubleT\source\repos\assimp;C:\Users\DoubleT\source\repos\assimp\code;C:\Users\DoubleT\source\repos\assimp\.;C:\Users\DoubleT\source\repos\assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\code;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\.;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -141,7 +141,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message>							</Message>
       <Command>setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos/code/Release/assimp-vc143-mt.dll C:/Users/DoubleT/source/repos/assimp/bin64/assimp-vc143-mt.dll
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/code/Release/assimp-vc143-mt.dll C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/bin64/assimp-vc143-mt.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -150,7 +150,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos/code/Release/assimp-vc143-mt.exp C:/Users/DoubleT/source/repos/assimp/lib64/assimp-vc143-mt.exp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/code/Release/assimp-vc143-mt.exp C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/lib64/assimp-vc143-mt.exp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,7 +159,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos/code/Release/assimp-vc143-mt.lib C:/Users/DoubleT/source/repos/assimp/lib64/assimp-vc143-mt.lib
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/code/Release/assimp-vc143-mt.lib C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/lib64/assimp-vc143-mt.lib
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -168,7 +168,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos/code/Debug/assimp-vc143-mtd.dll C:/Users/DoubleT/source/repos/assimp/bin64/assimp-vc143-mtd.dll
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/code/Debug/assimp-vc143-mtd.dll C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/bin64/assimp-vc143-mtd.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -177,7 +177,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos/code/Debug/assimp-vc143-mtd.exp C:/Users/DoubleT/source/repos/assimp/lib64/assimp-vc143-mtd.exp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/code/Debug/assimp-vc143-mtd.exp C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/lib64/assimp-vc143-mtd.exp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -186,7 +186,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos/code/Debug/assimp-vc143-mtd.ilk C:/Users/DoubleT/source/repos/assimp/lib64/assimp-vc143-mtd.ilk
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/code/Debug/assimp-vc143-mtd.ilk C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/lib64/assimp-vc143-mtd.ilk
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -195,7 +195,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos/code/Debug/assimp-vc143-mtd.lib C:/Users/DoubleT/source/repos/assimp/lib64/assimp-vc143-mtd.lib
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/code/Debug/assimp-vc143-mtd.lib C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/lib64/assimp-vc143-mtd.lib
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -204,7 +204,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos/code/Debug/assimp-vc143-mtd.pdb C:/Users/DoubleT/source/repos/assimp/lib64/assimp-vc143-mtd.pdb
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/code/Debug/assimp-vc143-mtd.pdb C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/lib64/assimp-vc143-mtd.pdb
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -215,11 +215,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\DoubleT\source\repos\assimp\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DoubleT/source/repos/assimp/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/repos -BC:/Users/DoubleT/source/repos --check-stamp-file C:/Users/DoubleT/source/repos/assimp/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master -BC:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master --check-stamp-file C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -227,12 +227,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\DoubleT\source\repos\assimp\assimp.pc.in;C:\Users\DoubleT\source\repos\assimp\cmake-modules\FindPkgMacros.cmake;C:\Users\DoubleT\source\repos\assimp\cmake-modules\PrecompiledHeader.cmake;C:\Users\DoubleT\source\repos\assimp\cmake-modules\assimp-plain-config.cmake.in;C:\Users\DoubleT\source\repos\assimp\include\assimp\config.h.in;C:\Users\DoubleT\source\repos\assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\repos\assimp\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\assimp.pc.in;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\cmake-modules\FindPkgMacros.cmake;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\cmake-modules\PrecompiledHeader.cmake;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\cmake-modules\assimp-plain-config.cmake.in;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\config.h.in;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DoubleT/source/repos/assimp/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/repos -BC:/Users/DoubleT/source/repos --check-stamp-file C:/Users/DoubleT/source/repos/assimp/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master -BC:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master --check-stamp-file C:/Users/DoubleT/source/repos2/DirectX11-With-Windows-SDK-master/assimp/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -240,16 +240,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\DoubleT\source\repos\assimp\assimp.pc.in;C:\Users\DoubleT\source\repos\assimp\cmake-modules\FindPkgMacros.cmake;C:\Users\DoubleT\source\repos\assimp\cmake-modules\PrecompiledHeader.cmake;C:\Users\DoubleT\source\repos\assimp\cmake-modules\assimp-plain-config.cmake.in;C:\Users\DoubleT\source\repos\assimp\include\assimp\config.h.in;C:\Users\DoubleT\source\repos\assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\repos\assimp\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckIncludeFileCXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.26\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\assimp.pc.in;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\cmake-modules\FindPkgMacros.cmake;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\cmake-modules\PrecompiledHeader.cmake;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\cmake-modules\assimp-plain-config.cmake.in;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\include\assimp\config.h.in;C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\assimp\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\DoubleT\source\repos\ZERO_CHECK.vcxproj">
-      <Project>{FFCC93A4-FCA7-32E1-A9D1-38C969BA96D7}</Project>
+    <ProjectReference Include="C:\Users\DoubleT\source\repos2\DirectX11-With-Windows-SDK-master\ZERO_CHECK.vcxproj">
+      <Project>{6D71DDCA-D649-38DE-9361-FFBEDDD1ED05}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
