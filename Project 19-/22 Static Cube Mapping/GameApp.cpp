@@ -89,6 +89,11 @@ void GameApp::UpdateScene(float dt)
                 m_BasicEffect.SetTextureCube(m_TextureManager.GetTexture("Desert")); 
                 pModel->materials[0].Set<std::string>("$Skybox", "Desert");
                 break;
+            //新增ColdSunset的纹理
+            case 3:
+                m_BasicEffect.SetTextureCube(m_TextureManager.GetTexture("ColdSunset"));
+                pModel->materials[0].Set<std::string>("$Skybox", "ColdSunset");
+                break;
             }
         }
     }
@@ -189,6 +194,9 @@ bool GameApp::InitResource()
     
     // Desert
     m_TextureManager.AddTexture("Desert", m_TextureManager.CreateFromFile("..\\Texture\\desertcube1024.dds", false, true));
+
+    // coldsunset
+    m_TextureManager.AddTexture("ColdSunset", m_TextureManager.CreateFromFile("..\\Texture\\coldSunset.dds", false, true));
 
     m_BasicEffect.SetTextureCube(m_TextureManager.GetTexture("Daylight"));
     
